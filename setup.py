@@ -1,12 +1,13 @@
 # coding=utf-8
 import os
 from setuptools import setup, find_packages
+from version import get_git_version
 
 app_name = "leolo"
-version = "0.5"
+version = get_git_version()
 
 README = os.path.join(os.path.dirname(__file__), "README")
-long_description = open(README).read() + "nn"
+long_description = open(README).read()
 
 setup(
    name = app_name,

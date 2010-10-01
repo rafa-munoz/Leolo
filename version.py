@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 # Author: Douglas Creager <dcreager@dcreager.net>
+# http://dcreager.net/2010/02/10/setuptools-git-version-numbers/
 # This file is placed into the public domain.
 
 # Calculates the current version number.  If possible, this is the

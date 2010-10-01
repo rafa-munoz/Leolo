@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xml:lang="en">
+  
+  <title type="html">European Mozilla Community Blog</title>
+  <subtitle type="html">Collaborative blog about what our Mozilla communities do and organize by themselves in Europe.</subtitle>
+  <link href="http://blogs.mozilla-europe.org/?feed/atom" rel="self" type="application/atom+xml"/>
+  <link href="http://blogs.mozilla-europe.org/?" rel="alternate" type="text/html"
+  title="Collaborative blog about what our Mozilla communities do and organize by themselves in Europe."/>
+  <updated>2010-09-07T22:09:49+02:00</updated>
+  <author>
+    <name>Pascal Chevrel</name>
+  </author>
+  <id>urn:md5:5e53c4dadeacb2a094ea5522b459af6c</id>
+  <generator uri="http://www.dotclear.org/">Dotclear</generator>
+  
+    
+  <entry>
+    <title>Meet Kerim Kalamujic, Bosnian Contributor!</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/09/03/Meet-Kerim-Kalamujic%2C-Bosnian-Contributor%21" rel="alternate" type="text/html"
+    title="Meet Kerim Kalamujic, Bosnian Contributor!" />
+    <id>urn:md5:4c4801c8a3cad5ae31d9d1109de662b0</id>
+    <published>2010-09-03T14:35:00+02:00</published>
+    <updated>2010-09-03T14:41:40+02:00</updated>
+    <author><name>Delphine Lebédel</name></author>
+        <dc:subject>Community Member Interviews</dc:subject>
+            
+    <content type="html">    &lt;img src=&quot;http://blogs.mozilla-europe.org/public/.Kerim_m.jpg&quot; alt=&quot;Kerim.jpg&quot; style=&quot;margin: 0 auto; display: block;&quot; title=&quot;Kerim.jpg, Sep 2010&quot; /&gt;
+1. Hello Kerim. To start out with, could you give us a little introduction and tell us a little bit about you?
+&lt;p&gt;Hi. I was born in Sarajevo, the capital of Bosnia and Herzegovina. I am 25 years old, I have an Engineer’s degree in Telecommunications and am currently working as an IT Director in a local company called Triland Development.&lt;/p&gt;
+2. What are you working on right now as a Mozilla contributor?
+&lt;p&gt;Besides leading the Bosnian Mozilla Community, I am currently working on localizing Thunderbird into Bosnian language, promoting Mozilla and Firefox (evangelism) and am contributing to Mozilla Drumbeat project.
+&lt;/p&gt;
+3. And have you been working on this since the beginning of your contributions, or has your work evolved in some way? Have you started working on anything completely new, that you were maybe not familiar with at first, since you have started contributing in Mozilla?
+&lt;p&gt;I started contributing to Mozilla through evangelism and localization and as I was learning more about Mozilla so has my work evolved. I started getting involved with more things than I was before. Now it’s a long list of things I enjoy doing in order to give my contribution to the wonderful Mozilla community and I look forward to learning new things and doing more work for Mozilla.&lt;/p&gt;
+4. Had you already heard of Free and Open Source Software before becoming a Mozilla contributor?
+&lt;p&gt;Yes, I have. Inspired by the story of Linus Torvalds I was developing my own DOS clone, just for fun and pleasure. Part of the code was later donated to the FreeDOS project. I was also involved with few other projects but contributing to Mozilla was and is the greatest fun of them all.&lt;/p&gt;
+5. What in Mozilla has been most helpful for you in your work as a contributor? And in your opinion, what has Mozilla brought you?
+&lt;p&gt;If I tried to list all the things I learned while contributing to Mozilla it would take me forever. And all those things, both knowledge and experience, were very helpful to me. I’ve learned a lot from community calls and from leading the Bosnian community about managing a team of people and about project management. It really helped me to improve my management skills which I apply in my everyday work since I, as an IT Director, lead a small geek team &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt; &lt;/p&gt;
+6. And how did you start contributing to Mozilla?
+&lt;p&gt;I loved Firefox from the first moment I ever used it. So, I thought maybe I could do something to make it even better. And that’s how it all started. I first got into localization then evangelism and so on. Three years later it looks like a nice fairy tale - so many beautiful memories.&lt;/p&gt;
+7. Any plans for the future?
+&lt;p&gt;Of course. I always have something in plan. Most of my current plans concern the Balkans community, since we’re currently in a process of building it, growing the Bosnian Mozilla community and promoting Open Web values through Drumbeat project.&lt;/p&gt;
+8. Thank you Kerim. Would you like to add anything else?
+&lt;p&gt;Thank you for this conversation. I really enjoyed it. I would like to say thanks to everyone for giving me the opportunity to be a part of such a wonderful community and for all the good moments and memories. I love you guys and I LOVE THIS COMMUNITY!&lt;/p&gt;</content>
+    
+    
+
+    
+          <wfw:comment>http://blogs.mozilla-europe.org/?post/2010/09/03/Meet-Kerim-Kalamujic%2C-Bosnian-Contributor%21#comment-form</wfw:comment>
+      <wfw:commentRss>http://blogs.mozilla-europe.org/?feed/atom/comments/98</wfw:commentRss>
+      </entry>
+    
+  <entry>
+    <title>Free Software @ Hegyalja Festival 2010</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/08/10/Free-Softvare-%40-Hegyalja-Festival-2010" rel="alternate" type="text/html"
+    title="Free Software @ Hegyalja Festival 2010" />
+    <id>urn:md5:77584892fcb6033f86a63c9cd85653d7</id>
+    <published>2010-08-10T10:38:00+02:00</published>
+    <updated>2010-08-09T20:24:22+02:00</updated>
+    <author><name>Kálmán Szalai</name></author>
+        <dc:subject>Community meeting</dc:subject>
+        <dc:subject>festival</dc:subject><dc:subject>Hungary</dc:subject>    
+    <content type="html">    &lt;p&gt;Like in the past few years, “Ubuntu and Free Software” Tent was put up again this year at the Hegyalja Festival 2010. With support of the Zöld Pók Foundation, under the leadership of Róbert Fidrich (Fidusz) two volunteers: Márk Dániel (loldma) and Kálmán Szalai (KAMI) introduced the free/libre/open source software to the visitors.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/52295341@N04/4819639571/sizes/l/in/set-72157624562372712/&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4123/4819639571_1fcbc89a7f_m.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anybody who has been interested in free software could fill a test for prizes like T-shirts, swags and CDs. Questions were related to Ubuntu, Firefox and OpenOffice.org. Afterwards there was a consultation to share the correct answers and for general discussion about Free Software. On Thursday, there was a round table discussion in the Green Tent where we presented the current state and possibilities of Free Software in Hungary. The tent of “Ubuntu tribe” was open from Thursday to Saturday night for everybody.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/52295341@N04/4819163198/sizes/l/in/set-72157624562372712/&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4141/4819163198_8bbf341b0a_m.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Luckily more people came than we had expected and they saw what happens in the oasis of Free Software, thanks to the good location of the tent. According to Hungarian trends, many users browse the Internet with Firefox, but they did not know if it is Free Software. They wanted to get to know more about OpenOffice.org and Ubuntu too.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/52295341@N04/4819158120/sizes/l/in/set-72157624562372712/&quot;&gt;&lt;img src=&quot;http://farm5.static.flickr.com/4123/4819158120_72c56dd37d_m.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As for conclusion, our attendance at the Hegyalja Festival 2010 was useful and our contribution made the program of the festival more colorful and extensive.&lt;/p&gt;
+&lt;p&gt;We &lt;a href=&quot;http://www.flickr.com/photos/52295341@N04/sets/72157624562372712/&quot; hreflang=&quot;en&quot;&gt;took some photos&lt;/a&gt; and &lt;a href=&quot;http://www.youtube.com/watch?v=pF7WRKOnf7w&quot; hreflang=&quot;en&quot;&gt;edited a video&lt;/a&gt; to show how fun it is to promote Free Software at festivals!&lt;/p&gt;
+&lt;div&gt;&lt;iframe class=&quot;youtube-player&quot; type=&quot;text/html&quot; width=&quot;440&quot; height=&quot;265&quot; src=&quot;http://www.youtube.com/embed/pF7WRKOnf7w&quot; frameborder=&quot;0&quot;&gt;
+&lt;/iframe&gt;&lt;/div&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>How hard can client authentication on the open web be?</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/08/02/How-hard-can-client-authentication-on-the-open-web-be" rel="alternate" type="text/html"
+    title="How hard can client authentication on the open web be?" />
+    <id>urn:md5:381a023c5b5e3b0e4ce98e12a60cf36b</id>
+    <published>2010-08-02T19:45:00+02:00</published>
+    <updated>2010-08-02T20:28:37+02:00</updated>
+    <author><name>Jesper Kristensen (Denmark)</name></author>
+        <dc:subject>Denmark</dc:subject><dc:subject>Firefox</dc:subject><dc:subject>OpenWeb</dc:subject>    
+    <content type="html">    &lt;p&gt;Client authentication on the web is apparently very difficult to do. Many companies and governments are trying to make secure systems, which normal people can still figure out how to use, with varying degrees of luck.&lt;br /&gt;&lt;br /&gt;On Planet Mozilla alone, David Eaves has talked about how Canada &lt;a href=&quot;http://feedproxy.google.com/%7Er/EavescaMozilla/%7E3/B1W5qeM3n3Y/&quot;&gt;does&lt;/a&gt; &lt;a href=&quot;http://feedproxy.google.com/%7Er/EavescaMozilla/%7E3/31XIvotn-AI/&quot;&gt;it&lt;/a&gt;, and &lt;a href=&quot;http://blog.mozilla.com/gen/&quot;&gt;Gen Kanai&lt;/a&gt; has described how it works in South Korea.&lt;br /&gt;&lt;br /&gt;In Denmark, where I live, the government has started on July 1, 2010 to roll out a new system, which they expect to have replaced the old completely by the end of the year. The new system is supposed to be much better than the old. But is it?&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;TDC Digital Signatur&lt;/strong&gt;&lt;br /&gt;The old system named TDC Digital Signature (TDC, a tele operator, was the contractor of the system) was a Public Key Infrastructure based on SSL Client Certificates.&lt;br /&gt;&lt;br /&gt;The problem with SSL Client Certificates is that they are ridiculously difficult to use in Internet Explorer, and they are much much worse in Firefox.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;https://bug322617.bugzilla.mozilla.org/attachment.cgi?id=281868&quot; /&gt;&lt;br /&gt;&lt;br /&gt;The prompt to use a client certificate on a website in Firefox is so difficult to understand that I am really puzzled about how the developers could even come up with it!&lt;br /&gt;&lt;br /&gt;In order to overcome some of the &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=322617&quot;&gt;issues&lt;/a&gt; of &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=295922&quot;&gt;handling&lt;/a&gt; SSL Client Certificates in Firefox, TDC built a system for offloading the certificate handling in the Windows version of Firefox to Internet Explorer, which has much better usability, even if still crappy (Linux and Mac users has to live with the Firefox interface). This however exposed even &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=401292&quot;&gt;more&lt;/a&gt; &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=465528&quot;&gt;bugs&lt;/a&gt; in Firefox.&lt;br /&gt;&lt;br /&gt;And this description is only for the case where the client certificate is stored and managed within the browser's certificate database, where it is locked to a particular computer and browser. Once you want to go mobile or protect your key from malware, you put your key on a hardware token (like a USB pen). A hardware token is also much easier to understand and thus protect for non-security experts, than the abstract concept of a certificate stored on your computer. But when using a hardware token, the setup in browsers becomes even more complicated.&lt;br /&gt;&lt;br /&gt;The conclusion is that even through SSL Client Certificates is a standardized technology supported in all major browsers, it is just not ready for mass usage, sadly.&lt;br /&gt;&lt;br /&gt;Because of the big pile of technical problems with SSL Client Certificates, the TDC Digital Signature gained little popularity. I cannot find a reference now, but I believe that at no time more than 10% of the Danish citizen had a certificate at any time during this solution's lifespan. The lack of a broadly deployed and easy to use authentication system has countless times been cited as the most dominating factor in preventing digitalization of the Danish public sector, at the cost of billions.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;NemID&lt;/strong&gt;&lt;br /&gt;When the contract with TDC expired, a new public procurement was made, where BPS in the form of its subsidiary DanID won the contract. PBS is a company responsible for the Danish credit card system and is owned by all Danish banks.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Online banking&lt;/strong&gt;&lt;br /&gt;Online banking sites world wide has in the past been notoriously IE only. This was also in case in Denmark. They have however improved ... by moving from ActiveX to Java. However the Java solutions have also been the cause of much trouble and technical difficulties. Some bank systems are based on private keys stored on the client in a proprietary format (as opposed to the open SSL Client Certificates) and loaded using Java, some are based on a hardware token generating one time keys to be entered together with a username and password in a Java applet, and yet others based on one time keys on a paper card, also with a username and password in a Java applet.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;NemID&lt;/strong&gt;&lt;br /&gt;The new system from PBS/DanID named NemID (English translation is EasyID) is one solution for all of them. All bank sites and all public sites in Denmark will now use the same login. It is supposed to be much easier to use, and since it is one shared solution, a lot more Danish citizen are expected to get one from their bank, thus allowing for a re-ignition of public sector digitalization.&lt;br /&gt;&lt;br /&gt;Now that NemID is out since July 1, what does it look like? Well, you first enter a personal username and password. Next you are asked to enter a specific one time key in the form of a short number from a little credit card sized paper card.&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;&quot; src=&quot;http://img121.imageshack.us/img121/1230/nemidcard.gif&quot; /&gt;&lt;br /&gt;&lt;br /&gt;Sounds fair enough? Maybe, but here comes the pile of problems.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Legal issues&lt;/strong&gt;&lt;br /&gt;DanID won a public procurement for making a Public Key Infrastructure (PKI), and according to DanID themselves, NemID is just that. However many security experts as well as many casual IT people (myself included), fail to ses how a username, password and one time key from a paper card can be a PKI. Instead it sounds like a much simpler Single Sign On solution (SSO).&lt;br /&gt;&lt;br /&gt;NemID may be a good solution by itself, but as a PKI, it is rubbish. There are very different security characteristics of a SSO and a PKI, and it is important to understand the differences between them when you deploy them. If a public agency deploys NemID thinking it is a PKI, they risk making a very insecure system.&lt;br /&gt;&lt;br /&gt;I don't know why they insist that it is a PKI. They claim that somewhere on a central server, a &quot;private key&quot; is stored for each citizen. They also claim that in a couple of years, you may be able to have your key locally on a hardware token. But until then, all these keys are only stored on the central server. I fail to see how that makes NemID a PKI.&lt;br /&gt;&lt;br /&gt;One reason for their claim may be that the original public procurement was for a PKI, and had they delivered a SSO instead (which is arguably what the government actually wanted), they would most likely have been forced to redo the public procurement according to EU procurement law, at the cost of millions and a delay of possibly years. But this is purely my own speculation. Their real reason for calling it a PKI is unknown to anybody but themselves.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Startup issues&lt;/strong&gt;&lt;br /&gt;Since its launch on July 1, NemID has had some startup problems. First the server was overloaded on day one, and then people discovered they couldn't use it for anything yet as none of the bank sites and public sites had added support for it yet. Also once the ID is ordered, it must be activated for bank sites and for public sites independently, which they failed to tell anyone. Lesson: Do not make a big campaign with TV and newspaper ads before your service is up and running.&lt;br /&gt;&lt;br /&gt;DanID also react slowly to technical problems. Some time ago I told them that parts of their sites was only accessible in IE due to a HTTP Content-Type header set to text/plain when it should have been text/html. They fixed it in the spring a year later when the press &lt;a href=&quot;http://www.version2.dk/artikel/14792-danid-kan-ikke-se-problemet-link-til-nemid-demo-dur-kun-i-internet-explorer?utm_medium=rss&amp;amp;utm_campaign=&quot;&gt;took up&lt;/a&gt; the issue.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Technical issues&lt;/strong&gt;&lt;br /&gt;Going through a more in depth analysis of NemID as seen by the user, the first thing you see when trying to log in to a public or bank site is that you need Java installed. What? Why can they in 2010 not figure out how to make a simple login form using simple open web standards? What did they think of when they made this? In fact I am not sure if this is even legal. A few years ago a new law demanding use of open standards in the public sector was passed, and a government agency maintains a list of allowed open standards. I don't think Java is on that list.&lt;br /&gt;&lt;br /&gt;&lt;img alt=&quot;&quot; src=&quot;http://img411.imageshack.us/img411/2825/nemidjava.png&quot; /&gt;&lt;br /&gt;&lt;br /&gt;Ok, so I enable Java and try again. I am now greeted by this dreadful Java Security Warning dialog. Again, what are they doing?!! First a little about the Java dialog itself, which is not related to NemID: If you didn't know it, could you guess what it asks about? I looked it up, and it seems that pressing Run will run the Java applet with full privileges of the user running Firefox on the operating system. That is, full access to all your files and settings. This is not at all obvious from reading the dialog. If you press Cancel instead, the applet will still run, but instead within the normal security sandbox like any other website. This is even less obvious from the dialog.&lt;br /&gt;&lt;br /&gt;But enough about Java. I start by clicking Cancel to the dialog, as I see no reason why NemID should access my files. In the previous bank authentication system where it needed to access my key file stored on my computer, I could see why it wants this access, but not here when you are only filling out a simple form of one text input and two password inputs.&lt;br /&gt;&lt;br /&gt;Anyway the applet fails to load because I clicked Cancel. Not only does it ask for access to my private computer, it also requires it. Very annoying, very troubling.&lt;br /&gt;&lt;br /&gt;I then fire up a fresh Ubuntu virtual machine to test this without potentially compromising my computer. The VM doesn't have Java, so I install the openjdk plug-in. But I am out of luck here. The Java applet just fails to load without any error message. Great. I uninstall openjdk and install sun-java6 instead, and after allowing to run the applet without the sandbox, I am finally allowed to see the login form. Wow, very &lt;em&gt;Easy&lt;/em&gt;ID.&lt;br /&gt;&lt;br /&gt;I have to admit that I had to stop testing NemID at this point. DanID recommends that if you have a Danish online banking agreement, you should wait until you get NemID automatically. The roll out happens from July to December 2010, and I haven't received mine yet.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Security issues&lt;/strong&gt;&lt;br /&gt;Another troublesome observation is the URLs of the sites where I am supposed to enter my details to log in. None of them (https://login.sikker-adgang.dk and https://netbank.danskebank.dk in my tests) seems to have anything to do with the NemID website (https://www.nemid.nu). So I am basically asked to enter my username, password and one time key at any arbitrary internet address. This would have been fine of course ... if NemID had been a PKI!&lt;br /&gt;&lt;br /&gt;So to me, the login pages with the big fat Java security warning and the arbitrary address looks very much like a big scam. And this is quite a problem. How is anyone supposed to spot the real phishing sites when the real sites act as much as possible as a phishing site?&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Privacy issues&lt;/strong&gt;&lt;br /&gt;Finally, NemID is not for public and bank sites only. Any private company can join and use NemID as a login on their site. Today I just read in the newspaper that many private companies are &lt;a href=&quot;http://www.version2.dk/artikel/15690-virksomheder-vil-have-nemid-til-kunderne?utm_source=feed&amp;amp;utm_medium=rss&amp;amp;utm_campaign=&quot;&gt;standing in line&lt;/a&gt; to be part of NemID. Had NemID been a PKI, I would have no problem with that, because in a PKI the website and the client can do authentication without the entity issuing the client's certificate being involved. With NemID, the Danish government (in the form of their contractor, DanID), can follow me every time I use my NemID on any private company website. This is a serious privacy issue.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Conclution&lt;/strong&gt;&lt;br /&gt;All in all, I hope that NemID will cause an increase in new and improved public sector online self services, giving fewer trips to a long waiting line at the city hall service office or other public agencies. I believe the basic idea of the solution is good, but I don't think it is used in the right way right now. I am anxious to see what the future brings on this front.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Mozilla Balkans 2010</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/04/23/Mozilla-Balkans-2010" rel="alternate" type="text/html"
+    title="Mozilla Balkans 2010" />
+    <id>urn:md5:0bdc554194232c2721c8dcbec3646005</id>
+    <published>2010-04-23T13:03:00+02:00</published>
+    <updated>2010-04-23T13:20:39+02:00</updated>
+    <author><name>Milos Dinic</name></author>
+        <dc:subject>Community meeting</dc:subject>
+        <dc:subject>community</dc:subject><dc:subject>mozilla</dc:subject>    
+    <content type="html">    &lt;p&gt;After a lot of talk about a possible event somewhere in South-Eastern Europe, we finally did it. We are now organizing a whole new and somewhat experimental event in the Rocky Balkans. Leaders of local Mozilla communities from the Balkans have joined their efforts to organize this event, the first of this type in the Balkans.&lt;/p&gt;
+
+
+&lt;p&gt;The spark that started all of this is an idea that came from the &lt;a href=&quot;http://milos.mozilla-srbija.org/post/2009/10/All-in-all%2C-community-rocks&quot;&gt;Mozilla Camp in Prague&lt;/a&gt; back in October 2009. We presented this idea to &lt;a href=&quot;http://somethin-else.org/&quot;&gt;William Quiviger&lt;/a&gt; from &lt;a href=&quot;http://www.mozilla-europe.org/&quot;&gt;Mozilla Europe&lt;/a&gt;, speaking about the possible expansion of Mozilla ideas to the Balkans. William agreed with everything we had stated at the time and decided to support this idea. Fortunately during last &lt;a href=&quot;http://fosdem.org/2010/&quot;&gt;FOSDEM&lt;/a&gt;, which was held in Brussels this February, we had a little more time, a few more ideas and a few more helpers. Support is provided by &lt;a href=&quot;http://blog.mozilla.com/seth/&quot;&gt;Seth Bindernagel&lt;/a&gt; and &lt;a href=&quot;http://informationisart.com/stas/&quot;&gt;Stas Malolepszy&lt;/a&gt;, long-time and well respected members of the Mozilla community.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/Mozilla_Community_Logo1.png&quot; alt=&quot;Mozilla Communities&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Mozilla Communities, Apr 2010&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;The very idea was to promote the &lt;a href=&quot;http://www.mozilla.org/about/manifesto&quot;&gt;Mozilla Manifesto&lt;/a&gt; and to strengthen ties and encourage cooperation between local Mozilla communities from the Balkans. There are already several local communities in this area that are actively working on the Mozilla products and website localization. &lt;a href=&quot;http://www.goddamnyou.info/&quot;&gt;Kerim&lt;/a&gt;, &lt;a href=&quot;http://gorjan.info/&quot;&gt;Gorjan&lt;/a&gt; and &lt;a href=&quot;http://www.bogomil.info/&quot;&gt;Bogomil&lt;/a&gt;, respectively representatives of Bosnian, Macedonian and Bulgarian Mozilla community, have actively participated in marketing projects for a long time now. Also, I can not overlook prominent Mozilla contributors, &lt;a href=&quot;http://www.alinamierlus.com/&quot;&gt;Alina&lt;/a&gt; and Mathjaz, who have been active in promoting Mozilla and its ideas for a long time now.&lt;/p&gt;
+
+
+&lt;p&gt;In early March, we organized several internal meetings which were attended by all leaders of local communities, and talked about the most important matters for the organization of events. We focused on the goals of this event, as well as the location and time of the event itself. Finally, in a democratic way, the city of Skopje was selected as the official location of this first event, and we also agreed that late May (probably the weekend of the 21-23rd) would be the best time for all of us. Beside Skopje, we had Sofia and Belgrade as options.&lt;/p&gt;
+
+
+&lt;p&gt;In the end I’d just like to invite all those who wish, can and have the time to join our meetings and to contribute with new and refreshing ideas. You can always find us on channels #balkans and #europe on irc.mozilla.org IRC server. Also, you can add all your ideas on the wiki page at &lt;a href=&quot;https://wiki.mozilla.org/Balkans:2010&quot;&gt;https://wiki.mozilla.org/Balkans:2010&lt;/a&gt; . I have yet to quote William and say that this is “just the first event in the chain”, and to say that soon we will organize a competition for this event’s logo. Follow the news and stay tuned.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox Education Toolkit</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/03/30/Firefox-Education-Toolkit" rel="alternate" type="text/html"
+    title="Firefox Education Toolkit" />
+    <id>urn:md5:fb6ddcde8673a66d5c99982dd64ac118</id>
+    <published>2010-03-30T21:35:00+02:00</published>
+    <updated>2010-03-30T21:46:21+02:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>Contribution</dc:subject>
+        <dc:subject>education</dc:subject><dc:subject>firefox</dc:subject><dc:subject>toolkit</dc:subject>    
+    <content type="html">    &lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/edutoolkitheader.jpg&quot; alt=&quot;Firefox Educaion Kit&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Firefox Educaion Kit, Mar 2010&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;We are happy to announce the launch of the Firefox Education Toolkit.
+It is a set of tools that will definetly come in handy when you want to educate people about Mozilla and Firefox. You probobly know all about your browser and why you have chosen it, but wouldn't it be great if you can share all that knowledge with others?
+Now, with a set of pring pieces, videos and presentations, you can do that with ease, whether it's explaining what Firefox is to a friend, to your class or even at a big event!&lt;br /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/.4472096823_4d7780b5c4_m.jpg&quot; alt=&quot;Firefox Educaion Kit1&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Firefox Educaion Kit1, Mar 2010&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Right now the print and presentation materials are localized in 3 languages: English, Spanish and Portuguese, and if you are interested in localizing them into your own language, stay tuned for more information.&lt;br /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;Don't forget to share your work with us:&lt;br /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Add to our Events Calendar&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;If you are organizing an event, &lt;a href=&quot;http://www.spreadfirefox.com/node/add/event&quot;&gt;create an &quot;event&quot;&lt;/a&gt; on Spread Firefox and/or a social network.  That way more people can learn about it. You can start by posting your event on Spread Firefox. Make sure to select “Firefox Education” as your event type!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Share Your Work!&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;After your event, let us know about it! Fill out this &lt;a href=&quot;http://bit.ly/mozspotlight&quot;&gt;short survey&lt;/a&gt; and we’d love to  feature you on &lt;a href=&quot;http://www.spreadfirefox.com/&quot;&gt;Spread Firefox&lt;/a&gt;, our &lt;a href=&quot;http://www.facebook.com/&quot;&gt;Firefox Facebook Group&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/firefox&quot;&gt;Twitter&lt;/a&gt;  and more to  let the world know how you rocked out with the education toolkit!&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Not knowing you have a choice is no choice at all</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/02/23/Not-knowing-you-have-a-choice-is-no-choice-at-all" rel="alternate" type="text/html"
+    title="Not knowing you have a choice is no choice at all" />
+    <id>urn:md5:9abccf75925b6bf5148a3775afca7d79</id>
+    <published>2010-02-23T15:19:00+02:00</published>
+    <updated>2010-02-23T21:15:13+02:00</updated>
+    <author><name>Irina Sandu (Romania)</name></author>
+            
+    <content type="html">    &lt;img title=&quot;opentochoice_logo_smaller.jpg, Feb 2010&quot; style=&quot;float: left; margin: 0 1em 1em 0; width: 109px; height: 146px;&quot; alt=&quot;&quot; src=&quot;http://blogs.mozilla-europe.org/public/.opentochoice_logo_smaller_s.jpg&quot; /&gt;
+&lt;p&gt;The browser choice screen is being pushed to about 190 million Internet Explorer users right now.  The screen allows people to download one or more of 12 browsers and is part of an agreement between the European Commission and Microsoft.&lt;/p&gt;
+&lt;p&gt;This is a big step towards making sure that everybody has a free choice regarding their web browser and goes in the same direction as Mozilla’s mission: to promote choice and diversity on the Internet. In order to make the most out of one’s experience on the Internet, one needs to be aware of the choices available to him/her and be free to choose what fits one’s needs and interests best. This is true when it comes to Web browsers, but it can be extended to a lot of areas, from human rights to car features. It is important to make efforts to inform individuals about the choices available and help them make the best decision that they can.&lt;/p&gt;
+&lt;br /&gt;
+&lt;img title=&quot;browser choice screen, Feb 2010&quot; style=&quot;margin: 0 auto; display: block;&quot; alt=&quot;&quot; src=&quot;http://blogs.mozilla-europe.org/public/.Picture_7_m.jpg&quot; /&gt;
+&lt;br /&gt;
+&lt;p&gt;That is why Mozilla launched &lt;a href=&quot;http://www.opentochoice.org&quot; hreflang=&quot;en&quot;&gt;Open to Choice&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Open to Choice is a campaign aimed at getting the word out to as many people as possible about the browser choice screen and the options available to them, as well as providing a platform for discussion of the importance of choice. Mitchell Baker and John Lilly have published an open letter on why “&lt;a href=&quot;http://www.opentochoice.org&quot; hreflang=&quot;en&quot;&gt;Web Browser Choice Matters&lt;/a&gt;”. The argumentation on why it’s important to make a choice will be followed with a series of blog posts on the Open to Choice website with information on what a browser is, how to choose, which options does one have and how to go out and make sure other people know how to choose their browser.&lt;/p&gt;
+&lt;p&gt;This campaign wouldn’t be complete without the help of the wonderful Mozilla community, which are helping localize, test and promote. Here’s a list of things that the community is doing and which we encourage everybody to do:&lt;/p&gt;
+&lt;ul style=&quot;margin-left: 30px;&quot;&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Comment on &lt;a href=&quot;http://www.opentochoice.org&quot; hreflang=&quot;en&quot;&gt;the open letter&lt;/a&gt;;&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Follow &lt;a href=&quot;http://twitter.com/opentochoice&quot; hreflang=&quot;en&quot;&gt;@opentochoice&lt;/a&gt; on Twitter;&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Write a post on your blog;&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Use your favourite social network to spread the word;
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Write to bloggers, local media
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Start a thread in technology and FLOSS related forums and mailing lists about the browser choice screen;
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Offer to localize the open letter (send an email to contact -at- opentochoice.org;
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Are you participating in local events where you can talk about choice? Do a talk, organize a booth, distribute flyers in the welcome pack, put a banner on the event page;
+&lt;/li&gt;
+&lt;li style=&quot;margin-top: 5px;&quot;&gt;• Become a browser choice screen watcher:
+did you see the browser choice screen pop-up on your screen? send us an email, post it on your blog, Tweet about it. Give details (country, time of day, choice of browser).
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>What's your style?</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/01/21/What-s-your-style" rel="alternate" type="text/html"
+    title="What's your style?" />
+    <id>urn:md5:88c0efd90169b55c9627848f64c2b2f5</id>
+    <published>2010-01-21T22:12:00+01:00</published>
+    <updated>2010-01-22T00:23:30+01:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>Open source events</dc:subject>
+        <dc:subject>personas</dc:subject><dc:subject>style</dc:subject>    
+    <content type="html">    &lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/Mozilla_Macedonia/gorjan.jpg&quot; alt=&quot;Gorjan&amp;#039;s Persona&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Gorjan&amp;#039;s Persona, Jan 2010&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Ever wanted to change the wallpapers in your room? 3 times a day? Well with Firefox 3.6 that is now possible for your browser thanks to its integrated Personas (For those of you that are new to the Personas feature, they are lightweight themes for Firefox that are easy to install and chage without the need to restart your browser).
+With more than &lt;a href=&quot;http://www.getpersonas.com/en-US/gallery/&quot; hreflang=&quot;en&quot;&gt;30.000 personas to choose from&lt;/a&gt; (and more every day), you can theme Firefox just the way you like it. It’s super easy as well to create your very own Personas and add them to the gallery, and be among thousands of other designers from all over the world!&lt;/p&gt;
+
+
+
+&lt;p&gt;To help us find out which Personas out there you love the most, we present you with a  challenge, to help celebrate the launch of Firefox 3.6 and its newest and possibly greatest feature. We want you to show off your Firefox with your favorite Personas installed. We have even taken the time out to do it have already done our &lt;a href=&quot;http://www.flickr.com/photos/9345516@N06/sets/72157623091815355/&quot; hreflang=&quot;en&quot;&gt;own Persona-portraits&lt;/a&gt; ourselves, as well as and provided you with some great tools to help you get started.&lt;/p&gt;
+
+
+
+&lt;p&gt;So what are you waiting for? Head to &lt;a href=&quot;http://www.spreadfirefox.com/get-personas/&quot; hreflang=&quot;en&quot;&gt;www.spreadfirefox.com/get-personas&lt;/a&gt; and share your style with the world!&lt;/p&gt;
+
+
+
+&lt;p&gt;Oh, and the picture you see here? That is &lt;a href=&quot;https://wiki.mozilla.org/User:Jovanovski&quot; hreflang=&quot;en&quot;&gt;Gorjan&lt;/a&gt; from &lt;a href=&quot;http://www.mozilla.mk/&quot; hreflang=&quot;en&quot;&gt;Mozilla Macedonia&lt;/a&gt; showing off just one of the ways you can join in!&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox 3.6</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/01/21/Firefox-3.6" rel="alternate" type="text/html"
+    title="Firefox 3.6" />
+    <id>urn:md5:803e43548ddab7ee78991b08724f72e6</id>
+    <published>2010-01-21T17:51:00+01:00</published>
+    <updated>2010-01-22T00:10:29+01:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>firefox 3.6</dc:subject><dc:subject>launch</dc:subject>    
+    <content type="html">    &lt;p&gt;&lt;a href=&quot;http://www.firefox.com&quot; hreflang=&quot;en&quot;&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/Mozilla_Macedonia/ff36-300x121.jpg&quot; alt=&quot;Firefox 3.6&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Firefox 3.6, Jan 2010&quot; /&gt;&lt;/a&gt;
+Okay, so Firefox 3.6 is a little later than planned, however we are sure that you will find the wait has been worth while. As they say in the world of fame, “it is fashionable to be late”. That is not all that is fashionable about this new version of the browser. Oh no, that is just the start of it.&lt;/p&gt;
+
+
+&lt;p&gt;With a new theme system known as Personas you can now change the look of the browser in seconds, with a choice that just boggles the mind. How often are you going to want to choose from over 30.000 different themes? Fashion is not all that Firefox is about however an there have been many changes under the hood that you may not notice. So let us fill in some of the details for you.&lt;/p&gt;
+
+
+&lt;p&gt;For Designers there is now support for CSS gradients as well as WOFF (these are small fonts that you can integrate into a website). This means that not only will you be able to make your sites look good, but they will load faster than ever before.&lt;/p&gt;
+
+
+&lt;p&gt;Oh and did we mention that Firefox 3.6 is fast? Firefox 3.6 is 20% faster than 3.5, and, if you remember, 3.5 was 3 times faster than Firefox 3. So on the whole, you cant get much faster without the safety that Firefox provides. This safety comes to you in the from of the new plug-in check feature that will allow you to see if your plug-ins are up-to-date, or if they need a little bit of an upgrade.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/Mozilla_Macedonia/background-security-300x253.png&quot; alt=&quot;Firefox 3.6&quot; style=&quot;display:block; margin:0 auto;&quot; title=&quot;Firefox 3.6, Jan 2010&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Programmers of the world. We did not forget you in the slightest. You can now add page orientation to your web apps thanks to the new orientation API. You can also use drag and drop functions as well as use the new FILE API to make your web apps more like desktop apps.&lt;/p&gt;
+
+
+&lt;p&gt;For all those out there that love to customize your browsing experience (with over 6000 Add-ons and over 30.000 Personas), to those of you that love to make the web better. Firefox 3.6 is the browser for you.&lt;/p&gt;
+
+
+&lt;p&gt;So visit www.firefox.com and enjoy a faster, safer and more secure way to use the web.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;(tnx a million to FuzzyFox for helping out with the text)&lt;/em&gt;&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Happy New Year. Please, introduce yourself !</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/01/11/Happy-New-Year.-Please%2C-introduce-yourself-%21" rel="alternate" type="text/html"
+    title="Happy New Year. Please, introduce yourself !" />
+    <id>urn:md5:677197ca0a9afa3def0c3cd7a34d45f8</id>
+    <published>2010-01-11T12:22:00+02:00</published>
+    <updated>2010-01-11T21:58:58+02:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+        <dc:subject>Community Member Interviews</dc:subject>
+        <dc:subject>Europe</dc:subject><dc:subject>mozilla</dc:subject><dc:subject>OpenWeb</dc:subject>    
+    <content type="html">    &lt;p&gt;Happy New Year to all Mozillians all over Europe.  This year will be the &lt;strong&gt;year of participation&lt;/strong&gt;. The term “user” does not exist any more, we are now all contributors, because the OpenWeb needs contributions and expects from everyone to be more active and full of passion.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;The Quest&lt;/strong&gt;
+So, here is the idea. Let every European country make here at &lt;a href=&quot;http://blogs.mozilla-europe.org/&quot; hreflang=&quot;en&quot;&gt;Mozilla Europe blog system&lt;/a&gt; a blog post with an introduction of its Mozilla team members and their vision of development for 2010. This is an exciting task, isn't it?&lt;/p&gt;
+
+
+&lt;p&gt;If you don't have an account, please send me an email (b@bgzilla.org) and I will publish your post here and will link you back&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Wordpress Mozilla community template.</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2010/01/11/Wordpress-Mozilla-community-template." rel="alternate" type="text/html"
+    title="Wordpress Mozilla community template." />
+    <id>urn:md5:527674b97ebb11c429337b8eb397a26e</id>
+    <published>2010-01-11T12:15:00+02:00</published>
+    <updated>2010-01-11T13:16:46+02:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+            
+    <content type="html">    &lt;p&gt;Finally my Wordpress template for a Mozilla community website is ready. It is based on &lt;a href=&quot;http://diary.braniecki.net/2008/12/25/mozilla-community-theme-v10beta/&quot;&gt;Gandalf's 0.1 theme&lt;/a&gt;, but is with a modern design and some things improved.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;img src=&quot;http://mozgull.bogomil.info/wp-content/uploads/2010/01/mozilla-d0b1d18ad0bbd0b3d0b0d180d0b8d18f_1262699880604-300x178.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Download&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;You can download archive &lt;a href=&quot;http://mozgull.bogomil.info/?p=95&quot; hreflang=&quot;en&quot;&gt;from here&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Install&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;1. Untar all files to /wp-content/themes/ folder to your Wordpress installation. I hope you are using the latest version &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;2. Go to /wp-admin. Select Appearance and click on &quot; WP Mozilla Community Theme v2 0.2 &quot; screenshot&lt;/p&gt;
+
+
+&lt;p&gt;3. Go to Widget screen to pimp it or just visit your website.&lt;/p&gt;
+
+
+&lt;p&gt;4. Done&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Support&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Yes, Free support is available. If you have any questions, please feel free post &lt;a href=&quot;http://mozgull.bogomil.info/?p=95&quot;&gt;them to my blog.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Upgrade and Feedback&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;There will be new version soon. I am working on some optimizations and your feedback can help me a lot.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox 5th anniversary in Bulgaria</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/11/30/Firefox-5th-anniversary-in-Bulgaria" rel="alternate" type="text/html"
+    title="Firefox 5th anniversary in Bulgaria" />
+    <id>urn:md5:08b2c16ec85b0ebcb74dbbcf2aee8844</id>
+    <published>2009-11-30T12:40:00+02:00</published>
+    <updated>2009-11-30T13:47:19+02:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+        <dc:subject>Community meeting</dc:subject>
+        <dc:subject>Bulgaria</dc:subject><dc:subject>forefox</dc:subject><dc:subject>mozilla</dc:subject>    
+    <content type="html">    Finally I have time to write here some more about all the events that took place during Firefox’s 5'th  anniversary.
+Thanks to Mozilla Europe we had a very delicious cake with a unique design. Here it is:&lt;br /&gt;&amp;nbsp;&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4088325733/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2608/4088325733_0b481a75ab.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;Besides the cake, as you can see we had cookies, many kinds of sweets, balloons, whistles and of course some merchandise:
+&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4088330695/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2629/4088330695_d689ebc694.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4089092914/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2755/4089092914_464f0d0447.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;br /&gt;
+After the cake-part we had 2 special sessions with talks and demonstrations and a game: &quot;Who creates the Bulgarian web?&quot;.
+Here you can see some more pictures:
+&lt;br /&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4088335001/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2780/4088335001_0563eaa24b.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4089100568/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2644/4089100568_6f8e1e7ec2.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4089095930/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2586/4089095930_3013576dd1.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/bogosh/4089097154/&quot; title=&quot;Firefox 5 - Sofia by bogomil.shopov, on Flickr&quot;&gt;&lt;img src=&quot;http://farm3.static.flickr.com/2668/4089097154_1d2e88f835.jpg&quot; alt=&quot;Firefox 5 - Sofia&quot; width=&quot;450&quot; /&gt;&lt;/a&gt;
+
+&lt;h2&gt;Slides&lt;/h2&gt;
+Here are the slides from my first talk, during this event:
+&lt;div style=&quot;width:425px;text-align:left&quot; id=&quot;__ss_2411239&quot;&gt;&lt;a style=&quot;font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/bogomil/what-is-mozilla-and-what-is-open-web-about&quot; title=&quot;What is MOZILLA and what is Open Web about.&quot;&gt;What is MOZILLA and what is Open Web about.&lt;/a&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=bgmozilla-rousse-en-091103081159-phpapp01&amp;stripped_title=what-is-mozilla-and-what-is-open-web-about&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;/&gt;&lt;embed src=&quot;http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=bgmozilla-rousse-en-091103081159-phpapp01&amp;stripped_title=what-is-mozilla-and-what-is-open-web-about&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style=&quot;font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;&quot;&gt;View more &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/&quot;&gt;presentations&lt;/a&gt; from &lt;a style=&quot;text-decoration:underline;&quot; href=&quot;http://www.slideshare.net/bogomil&quot;&gt;Bogomil Shopov&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox dominating in Macedonia</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/10/12/Firefox-dominating-in-Macedonia" rel="alternate" type="text/html"
+    title="Firefox dominating in Macedonia" />
+    <id>urn:md5:7064a98045a880ef951836412b81b990</id>
+    <published>2009-10-14T19:24:00+02:00</published>
+    <updated>2009-10-30T19:26:47+01:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>Macedonia</dc:subject><dc:subject>market share</dc:subject><dc:subject>mozilla</dc:subject>    
+    <content type="html">    &lt;p&gt;Even though the Republic of Macedonia is a young IT country, Firefox already dominates the browser market share way above most European counties. We have gathered info from 4 of the leading Macedonian sites and did a sum up of the statistics. The numbers were great! &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;http://chartgizmo.com/GenerateChart?id=8748&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;The Numbers are the following:&lt;/p&gt;
+
+
+&lt;p&gt;1. Mozilla Firefox - 62.3825%
+&lt;br /&gt;
+2. Internet Explorer - 18.7275%
+&lt;br /&gt;
+3. Google Chrome - 10.4125%
+&lt;br /&gt;
+4. Opera - 5.535%
+&lt;br /&gt;
+5. Apple Safari - 2.175%
+&lt;br /&gt;
+6. Other Browsers - 0.7675%&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Add your own Firefox's 5th birthday place here</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/10/14/Add-your-own-Firefox-s-5th-birthday-place-here" rel="alternate" type="text/html"
+    title="Add your own Firefox's 5th birthday place here" />
+    <id>urn:md5:2b98fa8ae01bea2fcc011d1281e35956</id>
+    <published>2009-10-14T13:54:00+03:00</published>
+    <updated>2009-10-14T14:56:33+03:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+            
+    <content type="html">    If you are planning something for Firefox's 5th birthday, please add your spot&amp;nbsp;&lt;a href=&quot;http://bit.ly/Fx5yrs&quot;&gt; here&lt;/a&gt;&amp;nbsp; by sending me location (city, country) and more details or link to contact(at)bgzilla.org or leave me a comment here.
+&lt;img src=&quot;http://mozgull.bogomil.info/Firefox5b.png&quot; alt=&quot;Firefox bday&quot; /&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Mozilla Firefox Catches up with Internet Explorer in Bulgaria</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/10/12/Mozilla-Firefox-Catches-up-with-Internet-Explorer-in-Bulgaria" rel="alternate" type="text/html"
+    title="Mozilla Firefox Catches up with Internet Explorer in Bulgaria" />
+    <id>urn:md5:2c072417f5fb38ae0c363500fd0a5b44</id>
+    <published>2009-10-12T13:00:00+03:00</published>
+    <updated>2009-10-12T14:00:11+03:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+        <dc:subject>browser</dc:subject><dc:subject>Bulgaria</dc:subject><dc:subject>Firefox</dc:subject><dc:subject>market share</dc:subject>    
+    <content type="html">    &lt;p&gt;According to the &lt;a href=&quot;http://novinite.com&quot; hreflang=&quot;en&quot;&gt;Novinite&lt;/a&gt; website , In terms of market share, Mozilla Firefox is a lot more popular in Bulgaria than it is globally, and appears to be catching with Internet Explorer.&lt;/p&gt;
+
+
+&lt;p&gt;This becomes clear from data about the market share of the Internet browsers in Bulgaria in September provided by the metric agencies Gemius and Nielsen, as cited by the Pari Daily.&lt;/p&gt;
+
+
+&lt;p&gt;Internet Explorer has a 52,4% market share in Bulgaria, whereas Firefox is used by 39,1%. This contrasts with the global market shares of the two most popular browsers. Globally, Internet Explorer has 65,7%, whereas Mozilla Firefox has 23,75%.&lt;/p&gt;
+
+
+&lt;p&gt;In September 2009, Firefox increased its global market share by 0,77%, whereas Internet Explorer lost 1,26%.&lt;/p&gt;
+
+
+&lt;p&gt;Another major difference between the Bulgarian market of Internet browsers is that the Norwegian browser Opera is the third most popular with a share of 4,43%, whereas Apple’s Safari is out of the top 3.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://mozgull.bogomil.info/?p=10&quot; hreflang=&quot;en&quot;&gt;Here are some more&lt;/a&gt; statistics about browsers in Bulgaria.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Some Thoughts on Firefox’s Fifth Birthday</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/10/12/Some-Thoughts-on-Firefox%E2%80%99s-Fifth-Birthday" rel="alternate" type="text/html"
+    title="Some Thoughts on Firefox’s Fifth Birthday" />
+    <id>urn:md5:d2f55c184bb72754d6ef9b31f27f6eb0</id>
+    <published>2009-10-12T11:15:00+03:00</published>
+    <updated>2009-10-12T12:20:54+03:00</updated>
+    <author><name>Bogomil Shopov</name></author>
+            
+    <content type="html">    &lt;p&gt;Firefox’s fifth anniversary arrived. Looking at my SFX account, it is almost as old as the browser, but I started using this way of thinking much earlier, at the times of Mosaic and Netscape, but that’s another topic.&lt;/p&gt;
+
+
+&lt;p&gt;The presents are the most important thing in a birthday party. But if we are talking about Firefox’s birthday the most important topic would be the web-freedom. Most of the people I know use Firefox. I also know people, who have been using the browser before it was called that way, but so few of them understand the meaning of Open Web, which is really a pity.&lt;/p&gt;
+
+
+&lt;p&gt;It is true, that spirit, beer and cake are very important for a birthday, but it is even more important for this fifth anniversary that we could find many new people, understanding the open web and contributing to its development.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Who creates the Bulgarian web?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Years ago the answer to this question inevitably would have been “The web companies”; the companies, which first launched websites, made them popular and attracted many users; the ones, which developed the Bulgarian web through many new portals, services, discounts, advertisements, and so on and so forth.
+If you ask them now – “Who makes the Bulgarian web?” they would answer “We do”; if we ask the people on the streets, they would probably answer the same: “They do”.&lt;/p&gt;
+
+
+&lt;p&gt;But that’s not true. You, creating and sharing content every day, commenting, writing, blogging, uploading pictures and video, publishing articles in Wikipedia and anywhere else, YOU create the Bulgarian web, not the companies, remember that! Things are changing at a breakneck speed and while years ago the web companies created the web, now they are just a small part of the whole cloud of everyone, included in the task and taking part in it, willing or not.
+The web-evolution started a long time ago and YOU are a part of it. YOU CREATE THE BULGARIAN WEB.&lt;/p&gt;
+
+
+&lt;p&gt;I believe that’s the spirit for a Firefox birthday party; it must clarify and teach, not just to gather people, who know what Firefox is to drink beer and talk loudly.
+That’s why we launched a campaign to make this happen. From October 14th until November 9th the Mozilla Bulgaria Team will present about 6 lectures in different places around the country, telling of the open web, our freedom, the personal space of each of us and the way we can protect it in the Internet. We will be discussing open standards, explaining what Firefox is and why we should celebrate on November 9th not only an anniversary, but something bigger: &lt;strong&gt;the realized notion that web – this is you.&lt;/strong&gt;&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Run, Firefox, run!</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/10/08/RUN%2C-FIREFOX%2C-RUN%21" rel="alternate" type="text/html"
+    title="Run, Firefox, run!" />
+    <id>urn:md5:73995f8ea6016a5f46bc9232b4bd3716</id>
+    <published>2009-10-08T18:57:00+02:00</published>
+    <updated>2009-10-09T01:38:52+02:00</updated>
+    <author><name>Jean-Bernard Marcon</name></author>
+        <dc:subject>community</dc:subject><dc:subject>Firefox 3.5</dc:subject><dc:subject>France</dc:subject><dc:subject>local</dc:subject><dc:subject>promotion</dc:subject>    
+    <content type="html">    &lt;title&gt;running with Firefox&lt;/title&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Every year in &lt;/span&gt;&lt;a tooltip=&quot;linkalert-tip&quot; style=&quot;font-family: Arial;&quot; href=&quot;http://maps.google.fr/maps?f=q&amp;amp;source=s_q&amp;amp;hl=fr&amp;amp;q=Tours,+Indre-et-Loire,+Centre&amp;amp;sll=47.424245,0.662375&amp;amp;sspn=0.019105,0.038581&amp;amp;ie=UTF8&amp;amp;cd=1&amp;amp;geocode=FVYe0wId04IKAA&amp;amp;split=0&amp;amp;hq=&amp;amp;hnear=Tours,+Indre-et-Loire,+Centre&amp;amp;ll=46.164614,3.999023&amp;amp;spn=20.033496,39.506836&amp;amp;z=5&quot;&gt;Tours, France&lt;/a&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp;
+by the end of September we have a very popular running race (10 and 20
+kms) in the downtown center. It is a kind of festive occasion with
+music and disguise, and serious athlete competitors are there, looking
+for performance, along with amateur joggers, just having fun together
+during a little effort. School boys and girls also take part (with more
+adapted distances).&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;All in all, more than 13 000 runners were running under a bright sun on September 27th.&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;As
+it is an occasion for every kind of company to sponsor runners with
+t-shirts, why not promote our favourite Open Source browser?&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Thanks to Mozilla, 20 runners were proudly showing their love for&amp;nbsp; Firefox 3.5 on t-shirts.&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Here is young Miss Firefox, for her first time on the race, with ehm veterans...&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 417px; height: 351px; font-family: Arial;&quot; alt=&quot;miss fx and vets&quot; src=&quot;http://blog.frenchmozilla.fr/public/groupe_4.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;During the race, she runs along with competitors clad in Indians&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 421px; height: 301px; font-family: Arial;&quot; alt=&quot;Indian runner&quot; src=&quot;http://blog.frenchmozilla.fr/public/double_un_indien.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;and animals of every kind&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 256px; height: 296px; font-family: Arial;&quot; alt=&quot;rabbit&quot; src=&quot;http://blog.frenchmozilla.fr/public/alice_et_lapin.jpg&quot; /&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt; &amp;nbsp; &lt;/span&gt;&lt;img style=&quot;width: 305px; height: 298px; font-family: Arial;&quot; alt=&quot;pig&quot; src=&quot;http://lh3.ggpht.com/_lXlfhwJ-j1o/Sr-zxOT_5KI/AAAAAAAAAZ8/Bb3O8PSIw3c/s640/t%C3%AAte%20de%20cochon.jpg&quot; /&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt; &amp;nbsp;&lt;/span&gt;&lt;img style=&quot;width: 259px; height: 298px; font-family: Arial;&quot; alt=&quot;monkey&quot; src=&quot;http://lh3.ggpht.com/_lXlfhwJ-j1o/Sr-wRuxJUVI/AAAAAAAAAZo/86yV8rt1FsA/s512/singe%20et%20banane.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;among serious runners&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 242px; height: 323px; font-family: Arial;&quot; alt=&quot;runners&quot; src=&quot;http://lh6.ggpht.com/_lXlfhwJ-j1o/Sr-wR49nhWI/AAAAAAAAAZs/pHUkLsH_xls/s512/athl%C3%A8tes.jpg&quot; /&gt;&amp;nbsp; &lt;img style=&quot;width: 311px; height: 233px; font-family: Arial;&quot; alt=&quot;sylvain&quot; src=&quot;http://farm3.static.flickr.com/2451/3957735731_eb5f2f356b.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;There was also Sylvain Naudin, who plays an active part in several &lt;/span&gt;&lt;a tooltip=&quot;linkalert-tip&quot; style=&quot;font-family: Arial;&quot; href=&quot;http://blog.libre.cc/&quot;&gt;local associations&lt;/a&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&amp;nbsp; to promote Open Source and Open Culture.&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;(see his &lt;/span&gt;&lt;a tooltip=&quot;linkalert-tip&quot; style=&quot;font-family: Arial;&quot; href=&quot;http://www.flickr.com/photos/naudinsylvain/&quot;&gt;flickr gallery&lt;/a&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt; for more)&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;After 10 kms and a little more than one hour running, here we are at last !&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 380px; height: 437px; font-family: Arial;&quot; alt=&quot;arrive&quot; src=&quot;http://blog.frenchmozilla.fr/public/arivee_ravito.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;And of course, let's recover during the paëlla party!&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;img style=&quot;width: 394px; height: 526px; font-family: Arial;&quot; alt=&quot;paella&quot; src=&quot;http://blog.frenchmozilla.fr/public/paella_party_1.jpg&quot; /&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;Hey, I am sure you have local events where you can promote Firefox for a mainstream audience. Tell us about local actions!&lt;/span&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial; font-weight: bold;&quot;&gt;&lt;h1&gt;&lt;span style=&quot;font-family: Arial; font-weight: bold;&quot;&gt;Go, Mozilla, Go!&lt;/span&gt;&lt;/h1&gt;
+&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br style=&quot;font-family: Arial;&quot;&gt;&lt;br /&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Meet Milos Dinic, Serbian Contributor</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/09/22/Contributor-Interview%3A-Meet-Milos" rel="alternate" type="text/html"
+    title="Meet Milos Dinic, Serbian Contributor" />
+    <id>urn:md5:8052d92d3beb0224bd4480740ed0c8fe</id>
+    <published>2009-09-22T11:18:00+02:00</published>
+    <updated>2009-09-22T12:45:00+02:00</updated>
+    <author><name>Delphine Lebédel</name></author>
+        <dc:subject>Community Member Interviews</dc:subject>
+        <dc:subject>community</dc:subject><dc:subject>mozilla</dc:subject><dc:subject>Serbia</dc:subject>    
+    <content type="html">    &lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/.Milos_s.jpg&quot; alt=&quot;Milos, Serbian Contributor&quot; style=&quot;float:right; margin: 0 0 1em 1em;&quot; title=&quot;Milos, Serbian Contributor, Sep 2009&quot; /&gt;
+&lt;strong&gt;Hello Milos. First of all, how old are you and were do you come from?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;I was born and raised in the city of Niš, Serbia, and I'm 24 years old.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;You are a contributor for the Serbian Mozilla Community. What do you contribute to exactly?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Mozilla Srbija, Serbian Mozilla Community, is involved in many different Mozilla projects. The very first project of our community was the translation of the Mozilla.com website in Serbian.&lt;/p&gt;
+
+
+
+&lt;p&gt;More specifically, I helped translating some well known Mozilla websites, such as Mozilla.com, Firefox support website (SUMO), Mozilla add-ons website (AMO) and Mozilla Europe. Furthermore, I'm pretty active in SUMO developing area, having successfully completed some quite complex and important activities with the Mozilla WebQA team in the last couple of months. Besides the above mentioned activities, I occasionally write a patch or two for Mozilla add-ons site, trying to help developers.&lt;/p&gt;
+
+
+
+&lt;p&gt;So in the end, while translating, I came across many other Mozilla projects, and got interested in them. Which is why I'm now actively participating in several projects.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;How long have you been contributing to Mozilla?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;My first contact with the global Mozilla community was during the winter of 2008. I followed events on the #xul talkings on Mozilla IRC server, as well as tutorials on the MDC site. At the beginning I wasn't too active, but as time passed, I was more and more involved. A few months later I met Pascal Chevrel, who guided me during translations efforts of the Mozilla websites. From that time on, I've been an active member for the Mozilla community.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;And what has made you want to contribute to Mozilla? Did you already have any contacts with Mozilla before you started to contribute?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;The very first contact with Mozilla was Firefox. After having tried other well known Web browsers, I discovered Firefox and decided to use it for good. As a logical step after Firefox, I started to use using Thunderbird, and later Sunbird.&lt;/p&gt;
+
+
+&lt;p&gt;As I said before, I began by looking for some 'online' help with XUL. After the MDC website, I found the Mozilla IRC server and registered my nickname on it. Several days spent on the #xul channel led me to other channels on the server, where I noticed that many people volunteer in various Mozilla projects. After a few days well spent in getting to know the localization associates, I realized that the work of a contributor is very pricy and respected, and that really got me overjoyed. Furthermore, I saw that I could help, and that what I do will help other community members, so I decided that I would - to the possible extent - help the community, as I really value the time and effort other people have spent helping me.&lt;/p&gt;
+
+
+&lt;p&gt;While working on all these projects, I realized the value of all of this: the communities that work on these projects, as well as directly on the software, are simply invaluable. So I am very happy to have the opportunity to participate a bit in such great things.&lt;/p&gt;
+
+
+&lt;p&gt;While working on all above-mentioned projects, I got to know in more detail how the community works, breaths and creates great software, and I can tell you that I am really proud that I had the opportunity to contribute to its success.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;I have heard that you have recently started translating the Mozilla Europe Website in Serbian. What can you tell us about this experience?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Yes. Few weeks ago, I began work on translating the Mozilla Europe website into Serbian language. As there are currently very few active members in our community, so far we have not had the time nor or the courage to initiate this project. However, we are now ready, and I hope that we will soon see the Mozilla Europe Serbian site on the way &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Mozilla Europe, as part of the global Mozilla community, is really incredible. Although the goal of all our efforts is to promote and improve Mozilla products and websites, this community is very much responsible for the great success of our projects in Europe. In a world of information technology, much less attention is paid to spread awareness in smaller countries, and that is exactly what Mozilla Europe is trying to correct. All European Communities are equal, and all have the same privileges. What I find wonderful, is that a lot of attention is paid to countries from Southeastern Europe, and thus given a chance to local contributors to promote their country and language. It is very important that on these sites communities get a lot of the integrity to use their language and communities have equal opportunities to present themselves in the best possible way.&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;strong&gt;Is there anything you would like to add, a message that you would like to pass around?&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;p&gt;I'd like to thank all contributors for making our world a place where this great community exists, as well as for honestly accepting new people that come in, and for trying to make things better... I would especially like to thank all Mozilla developers and all others involved in projects, for endless support and community promotion.&lt;/p&gt;
+
+
+&lt;p&gt;At the end, I would like to send a message to all reading this text that they should drop by, at least briefly, to feel the atmosphere among Mozillians, or even contact us. The goal of everything we do is to ease the work, dissemination of knowledge and friendship... and all are welcome!&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Mozilla Service Week in the local Catalan Community: Part 1</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/09/14/Mozilla-Service-Week-in-the-local-Catalan-Community%3A-Part-1" rel="alternate" type="text/html"
+    title="Mozilla Service Week in the local Catalan Community: Part 1" />
+    <id>urn:md5:66a1f8d2010f47f18f768341f6deaf3a</id>
+    <published>2009-09-14T21:09:00+02:00</published>
+    <updated>2009-09-14T21:36:06+02:00</updated>
+    <author><name>Alina Mierluș</name></author>
+        <dc:subject>Open source events</dc:subject>
+        <dc:subject>Catalonia</dc:subject><dc:subject>Mozilla Service Week</dc:subject>    
+    <content type="html">    &lt;p&gt;&lt;img src=&quot;http://blogs.mozilla-europe.org/public/.blogAd_m.jpg&quot; alt=&quot;Mozilla Service Week&quot; style=&quot;float: left; margin-right: 10px;&quot; title=&quot;Mozilla Service Week, Sep 2009&quot; /&gt;
+&lt;a href=&quot;http://mozillaservice.org&quot; hreflang=&quot;en&quot;&gt;Mozilla Service Week&lt;/a&gt;, one of the newest projects of Mozilla, is all about helping people to discover the Internet and teaching them to use it for improving their community/project/organization. We started to help Mozilla Service Week a few weeks ago by translating it in our language (Catalan). We have been thinking that the project is a perfect opportunity to help our local community and enable good things to happen in our society, and at the same time, offering others ideas about how they could improve their own community.&lt;/p&gt;
+&lt;p&gt;The Web has been a serious change in our lives. The Web helped a lot of people in many different ways. But, let's think about it: How the world and our local society could change if more people knew how to use it at its “full capacity”? Do people really know about all the benefits of the Web? How and where could they find the information they need? Do organizations and associations really know how to use the social network in order to have more fans or recruit more members, or  promote their activities? Do all people really know about the importance of being up-to-date? Or, how using an open source CMS can simplify their work on developing their personal web page? And how about using all that in their own region?&lt;/p&gt;
+&lt;p&gt;Some days ago, &lt;a href=&quot;http://commonspace.wordpress.com/&quot; hreflang=&quot;en&quot;&gt;Mark Surman&lt;/a&gt; (executive Director at Mozilla Foundation) commented on his blog about &lt;a href=&quot;https://wiki.mozilla.org/Drumbeat&quot; hreflang=&quot;en&quot;&gt;Drumbeat Project&lt;/a&gt; , where he stated that “Europe is particularly a good place to start with this kind of local events strategy”.  We share his point of view, and we would like to approach this to our closer local reality, which we know the most.
+So, we decided to join the challenges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pledgebank.com/internethealth&quot; hreflang=&quot;en&quot;&gt;Internte Health Checks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pledgebank.com/mozserviceweb&quot; hreflang=&quot;en&quot;&gt;Web Help for individuals and organizations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pledgebank.com/mozservsocial&quot; hreflang=&quot;en&quot;&gt;Socian Networking &quot;how to&quot; sessions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We started on Saturday by volunteering 5 hours to help a cultural association to use some social networks, so they can make a better promotion within their local community. Moreover, we have helped them to set up a blog by using an open source CMS.&lt;/p&gt;
+&lt;p&gt;Next Saturdayday we are going to participate at &lt;a href=&quot;http://wiki.caliu.cat/index.php/DLP2009&quot; hreflang=&quot;ca&quot;&gt;Free Software Day&lt;/a&gt; (Barcelona, Catalonia) by giving a speech about Mozilla's causes, specially focused in Mozilla Service Week program, and a practical Internet support session as well.&lt;/p&gt;
+&lt;p&gt;We are also currently preparing with &lt;a href=&quot;http://www.citilab.eu&quot; hreflang=&quot;en&quot;&gt;Citilab Cornellà&lt;/a&gt;, a telecenter focused on innovation and knowledge, a special event devoted to local communities and local Internet society, on September 22th. We would like to celebrate the global &lt;a href=&quot;http://www.onewebday.org&quot; hreflang=&quot;en&quot;&gt;One Web Day&lt;/a&gt; and discuss about which local community strategies should we follow in order to promote and create an Open Web movement in Catalonia.&lt;/p&gt;
+&lt;p&gt;We will explain our achievements with a latter post, and we would like to invite all local communities around Europe to write here about their projects  during Mozilla Service Week. This could greatly help other local communities with ideas and inspiration and this will also offer us a better  future understanding on how Mozilla Service Week developed around Europe.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox Promotion in the Republic of Macedonia - Part 3</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/09/06/Firefox-Promotion-in-the-Republic-of-Macedonia-Part-3" rel="alternate" type="text/html"
+    title="Firefox Promotion in the Republic of Macedonia - Part 3" />
+    <id>urn:md5:ebb79e3c400b82eb037b789df81b1d19</id>
+    <published>2009-09-06T22:10:00+02:00</published>
+    <updated>2009-09-09T01:26:07+02:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>Community meeting</dc:subject>
+        <dc:subject>firefox</dc:subject><dc:subject>macedonia</dc:subject><dc:subject>pictures</dc:subject><dc:subject>promotion</dc:subject><dc:subject>skopje</dc:subject>    
+    <content type="html">    &lt;p&gt;Well everyone, the promotion has finished! &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;
+The weather and the Macedonia - Scotland soccer match kept people in their houses, but we still got plenty of visitors. 3 hours of fun on the city square in Skopje and Kumanovo was great. People came, they got to know  the Firefox browser, the +5000 addons, Mozilla and the Macedonian promotion team. &lt;/p&gt;
+&lt;p&gt;But words cannot do anything here, so thanks to Damjan Arsovski, we have a bunch of nicely shot pictures of the Skopje promotion.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a hreflang=&quot;mk&quot; href=&quot;http://www.flickr.com/photos/mozilla-mk/sets/72157622144326669/&quot;&gt;&lt;img src=&quot;http://i88.servimg.com/u/f88/11/88/31/67/7532_110.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a hreflang=&quot;mk&quot; href=&quot;http://www.flickr.com/photos/mozilla-mk/sets/72157622144326669/&quot;&gt;&lt;img src=&quot;http://i88.servimg.com/u/f88/11/88/31/67/7532_111.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a hreflang=&quot;mk&quot; href=&quot;http://www.flickr.com/photos/mozilla-mk/sets/72157622144326669/&quot;&gt;&lt;img src=&quot;http://i88.servimg.com/u/f88/11/88/31/67/7532_112.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Dig in to our Flickr gallery, &lt;a href=&quot;http://www.flickr.com/photos/mozilla-mk/sets/72157622144326669/&quot; hreflang=&quot;mk&quot;&gt;here&lt;/a&gt;. For more info about the promotion itself and the group can be found in &lt;a hreflang=&quot;en&quot; href=&quot;http://blogs.mozilla-europe.org/?post/2009/09/04/Firefox-Promotion-in-the-Republic-of-Macedonia-Part-2&quot;&gt;this&lt;/a&gt; blog post.&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+    
+  <entry>
+    <title>Firefox Promotion in the Republic of Macedonia - Part 2</title>
+    <link href="http://blogs.mozilla-europe.org/?post/2009/09/04/Firefox-Promotion-in-the-Republic-of-Macedonia-Part-2" rel="alternate" type="text/html"
+    title="Firefox Promotion in the Republic of Macedonia - Part 2" />
+    <id>urn:md5:d42ef56ac9ea880dd0ef0f28df53608e</id>
+    <published>2009-09-04T00:04:00+02:00</published>
+    <updated>2009-09-16T14:10:40+02:00</updated>
+    <author><name>Gorjan Jovanovski (Macedonia)</name></author>
+        <dc:subject>Community meeting</dc:subject>
+        <dc:subject>firefox</dc:subject><dc:subject>kumanovo</dc:subject><dc:subject>macedonia</dc:subject><dc:subject>mozilla</dc:subject><dc:subject>promotion</dc:subject><dc:subject>skopje</dc:subject><dc:subject>македонија</dc:subject>    
+    <content type="html">    &lt;p&gt;Well guys, only a single day to go until the Firefox promotion here in Skopje and Kumanovo. The whole team is very excited to let you know all the things we have accomplished so far here in Macedonia:&lt;/p&gt;
+&lt;h4&gt;Pre-promotion:&lt;/h4&gt;
+&lt;p&gt;Printing and burning CD's with the Macedonian and Albanian locale of Firefox 3.5.2 was a priority. &lt;a href=&quot;http://www.flickr.com/photos/mozilla-mk/3851617837/in/set-72157622004443803/&quot; hreflang=&quot;mk&quot;&gt;[preview&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Marketing and spreading the word was also on the top of the to-do's list. Apart from flayers that we will distribute before the promotion, we have gotten support from a local marketing company, which offered us billboards free of charge! They got them up yesterday. &lt;a href=&quot;http://www.flickr.com/photos/mozilla-mk/3886962434/&quot; hreflang=&quot;en&quot;&gt;preview&lt;/a&gt; / &lt;a href=&quot;http://www.flickr.com/photos/mozilla-mk/3866630589/in/set-72157622004443803/&quot; hreflang=&quot;en&quot;&gt;design preview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We also did a TV interview with a local TV station about the group and it's activities:
+&lt;br/&gt;&lt;video src=&quot;http://mozilla-mk.com/firefox/Untitled_0001.ogg&quot; width=&quot;400&quot; height=&quot;300&quot; controls=&quot;&quot;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;h4&gt;Promotion:&lt;/h4&gt;
+&lt;p&gt;Setting up around 3pm, the promotion is scheduled to start around 4pm, both in Skopje and Kumanovo.&lt;/p&gt;
+&lt;p&gt;We will have 3 laptops ready for people to experiment with Firefox 3.5.2 and 2 team members on stand-by to help them out. On each laptop, there will be a separate set of Addons, each deigned for a specific person (designer, programmer, social junkie).&lt;/p&gt;
+&lt;p&gt;On the other side, we will have yet another laptop, but on this one there will be a presentation set up, a set of Firefox questions to be precise. All that will be interested, can stop by and test their knowledge of Firefox's features. The questions will be very easy, and for each participent there will be a prize (badge, FF tattoos, set of stickers, neck-strap...). If a person gets the question wrong, the team member will explain to all the present bystanders what the right answer is and why.&lt;/p&gt;
+&lt;p&gt;Every hour we will be giving out free Firefox installation CD's with a custom designed menu on Macedonian and Albanian, setup for FF 3.5.2 and a guide for Internet Explorer users.&lt;/p&gt;
+&lt;h4&gt;Post-promotion:&lt;/h4&gt;
+&lt;p&gt;We plan to make the group an official organization.
+Also, we shall not forget Thunderbird &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Well everyone, that's all for now, if you can make it to the promotion, we will be very happy, and as for those that are outside the Republic of Macedonia, you can catch the live stream on our webpage: &lt;a href=&quot;http://www.mozilla-mk.com/node/18&quot; hreflang=&quot;mk&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Till next time! &lt;img src=&quot;http://blogs.mozilla-europe.org/themes//default/smilies/smile.png&quot; alt=&quot;:)&quot; class=&quot;smiley&quot; /&gt;&lt;/p&gt;</content>
+    
+    
+
+    
+      </entry>
+  
+</feed>

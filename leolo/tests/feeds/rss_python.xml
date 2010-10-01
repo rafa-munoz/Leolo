@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+  <channel>
+    <title>Python News</title>
+    <link>http://www.python.org/</link>
+    <description>Python-related news and announcements.
+      Python is an interpreted, interactive, object-oriented
+      programming language. </description>
+
+    <image>
+      <title>Python logo</title>
+      <url>http://www.python.org/images/python-logo.gif</url>
+      <link>http://www.python.org/</link>
+    </image>
+ 
+    
+      <item>
+	<guid>http://www.python.org/news/index.html#Mon06Sep20108300200</guid>
+	<title>Python 3.2 alpha 2 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/3.2/">second alpha release of Python 3.2</a> has been released for testing.</p>]]></description>
+	<pubDate>Mon, 06 Sep 2010, 8:30 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Tue24Aug20100945-0400</guid>
+	<title>Python 2.6.6 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p><a class="reference external" href="/download/releases/2.6.6/">Python 2.6.6</a> final has been released.</p>]]></description>
+	<pubDate>Tue, 24 Aug 2010, 09:45 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed16Aug20101929-0400</guid>
+	<title>Python 2.6.6rc2 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>A second <a class="reference external" href="/download/releases/2.6.6/">release candidate for Python 2.6.6</a> has been released for testing.  Python 2.6.6 final is schedule for release on August 24, 2010.</p>]]></description>
+	<pubDate>Wed, 16 Aug 2010, 19:29 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed04Aug20101809-0400</guid>
+	<title>Python 2.6.6rc1 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>A <a class="reference external" href="/download/releases/2.6.6/">release candidate for Python 2.6.6</a> has been released for testing.  Python 2.6.6 final is schedule for release on August 16, 2010.</p>]]></description>
+	<pubDate>Wed, 04 Aug 2010, 18:09 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun01Aug20108300200</guid>
+	<title>Python 3.2 alpha 1 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/3.2/">first alpha release of Python 3.2</a> has been released for testing.</p>]]></description>
+	<pubDate>Sun, 01 Aug 2010, 8:30 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Thu29Jul2010830-0700</guid>
+	<title>Frank Willison Award goes to Christian Tismer</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>Christian Tismer has been selected as the recipient for the <a class="reference external" href="http://pyfound.blogspot.com/2010/07/frank-willison-memorial-award-recipient.html">2010 Frank Willison Memorial Award</a> for contributions to the Python community.  Congratulations!</p>]]></description>
+	<pubDate>Thu, 29 Jul 2010, 8:30 -0700</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed14Jul20108300200</guid>
+	<title>Python track at German Zope conference</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="http://www.zope.de/tagung/Dresden_2010">German Zope Conference</a> takes place September 15-17 in Dresden. We are still looking for talk proposals for the Python track.</p>]]></description>
+	<pubDate>Wed, 14 Jul 2010, 8:30 +0200</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun4Jul20101030-0500</guid>
+	<title>Python 2.7 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">first production version of Python 2.7</a> has been released.</p>]]></description>
+	<pubDate>Sun, 4 Jul 2010, 10:30 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed30Jun20100730-0700</guid>
+	<title>PSF supports PyCon India</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p><a class="reference external" href="psf/">The PSF</a> is sponsoring <a class="reference external" href="http://in.pycon.org/2010/">PyCon India 2010</a>, to be held in Bangalore on Sep 25/26, 2010. The PSF is contributing an amount of $1000 towards the conference and wishes PyCon India all success.</p>]]></description>
+	<pubDate>Wed, 30 Jun 2010, 07:30 -0700</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Mon20Jun20101215-0500</guid>
+	<title>Python 2.7 release candidate 2 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">second release candidate of Python 2.7</a> has been released for testing.</p>]]></description>
+	<pubDate>Mon, 20 Jun 2010, 12:15 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun13Jun20102100-0800</guid>
+	<title>PyCon India 2010 Call for Proposals</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>Submit <a class="reference external" href="http://in.pycon.org/2010/cfp">your proposal</a> by July 31 for <a class="reference external" href="http://in.pycon.org/2010/">PyCon India</a> (Bangalore, Sept 25-26)</p>]]></description>
+	<pubDate>Sun, 13 Jun 2010, 21:00 -0800</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat5Jun20102115-0500</guid>
+	<title>Python 2.7 release candidate 1 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">first release candidate of Python 2.7</a> has been released for testing.</p>]]></description>
+	<pubDate>Sat, 5 Jun 2010, 21:15 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Weds2Jun2010071000-0700</guid>
+	<title>EuroPython 2010 Talks Schedule Announced</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="http://www.europython.eu/talks/timetable/">conference schedule</a> for <a class="reference external" href="http://www.europython.eu/">EuroPython 2010</a> (Monday July 19th until Thursday July 22nd) has now been made available, along with a convenient <a class="reference external" href="http://www.europython.eu/talks/talk_abstracts/">list of talks</a></p>]]></description>
+	<pubDate>Weds, 2 Jun 2010, 07:10:00 -0700</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Weds19May2010090100-0700</guid>
+	<title>PyCon Australia program</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>Check out <a class="reference external" href="http://pycon-au.org/2010/conference/">the program</a>  and <a class="reference external" href="http://pycon-au.org/2010/registration/">register</a> for <a class="reference external" href="http://au.pycon.org">PyCon Australia 2010</a>, held Saturday 26th June and Sunday 27th June in Sydney, Australia.</p>]]></description>
+	<pubDate>Weds, 19 May 2010, 09:01:00 -0700</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Weds19May2010090000-0700</guid>
+	<title>SciPy 2010 in Austin, Texas</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>Scientific computing conference comprised of tutorials, a general conference, keynote talks from David Beazley and Travis Oliphant, commercial tracks, and developer sprints. June 28 - July 3 on the University of Texas campus. See <a class="reference external" href="http://conference.scipy.org/scipy2010/">the conference website</a> for details.</p>]]></description>
+	<pubDate>Weds, 19 May 2010, 09:00:00 -0700</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat8May2010134500-0500</guid>
+	<title>Python 2.7 beta 2 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">second beta of Python 2.7</a> has been released for testing.</p>]]></description>
+	<pubDate>Sat, 8 May 2010, 13:45:00 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed14April2010111500-0400</guid>
+	<title>PyCon Australia Call for Proposals</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p><a class="reference external" href="http://au.pycon.org/cfp">Talk submissions are now being accepted</a> for <a class="reference external" href="http://au.pycon.org">PyCon Australia 2010</a>, held Saturday 26th June and Sunday 27th June in Sydney, Australia.</p>]]></description>
+	<pubDate>Wed, 14 April 2010, 11:15:00 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat10April2010140000-0600</guid>
+	<title>Python 2.7 beta 1 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">first beta of Python 2.7</a> has been released for testing.</p>]]></description>
+	<pubDate>Sat, 10 April 2010, 14:00:00 -0600</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Tue30Mar2010120000-0600</guid>
+	<title>Google Summer of Code: call for participation</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>Python is participating in the <a class="reference external" href="http://code.google.com/soc/">Google Summer of Code</a>, and we welcome mentors and students!  Please see the <a class="reference external" href="http://wiki.python.org/moin/SummerOfCode/2010">Python Summer of Code site</a> for more details on how to participate.</p>]]></description>
+	<pubDate>Tue, 30 Mar 2010, 12:00:00 -0600</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri26Mar2010080000-0600</guid>
+	<title>EuroScipy call for papers</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p><a class="reference external" href="http://www.euroscipy.org/card/euroscipy2010_call_for_papers">Abstract submission</a> is now open for <a class="reference external" href="http://www.euroscipy.org/conference/euroscipy2010">EuroScipy 2010</a>, the 3rd European meeting on Python in Science. The conference will be held at the Ecole Normale Superieure, in Paris, July 8-11 2010.</p>]]></description>
+	<pubDate>Fri, 26 Mar 2010, 08:00:00 -0600</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sun21Mar2010123000-0500</guid>
+	<title>Python 3.1.2 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/3.1.2/">second bug fix release</a> for the Python 3.1 series is now available.</p>]]></description>
+	<pubDate>Sun, 21 Mar 2010, 12:30:00 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Fri19Mar2010184300-0400</guid>
+	<title>Python 2.6.5 final</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.6.5/">final release for Python 2.6.5</a> is now available.</p>]]></description>
+	<pubDate>Fri, 19 Mar 2010, 18:43:00 -0400</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Wed10Mar2010105600-0500</guid>
+	<title>Python 2.6.5 release candidate 2</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.6.5/">second release candidate for Python 2.6.5</a> is now available.</p>]]></description>
+	<pubDate>Wed, 10 Mar 2010, 10:56:00 -0500</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat06Mar2010163000-600</guid>
+	<title>Python 2.7 alpha 4 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>The <a class="reference external" href="/download/releases/2.7/">fourth alpha of Python 2.7</a> is now available for download.</p>]]></description>
+	<pubDate>Sat, 06 Mar 2010, 16:30:00 -600</pubDate>
+      </item>
+      <item>
+	<guid>http://www.python.org/news/index.html#Sat06Mar2010160000-0600</guid>
+	<title>Python 3.1.2rc1 released</title>
+	<description><![CDATA[<!--utf-8--><!--0.5-->
+
+
+
+
+<p>A <a class="reference external" href="/download/releases/3.1.2/">release candidate</a> of Python 3.1.2 is now available for download.</p>]]></description>
+	<pubDate>Sat, 06 Mar 2010, 16:00:00 -0600</pubDate>
+      </item>
+
+  </channel>
+</rss>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>The Django weblog</title><link>http://www.djangoproject.com/weblog/</link><description>Latest news about Django, the Python Web framework.</description><language>en-us</language><lastBuildDate>Fri, 10 Sep 2010 23:54:52 -0500</lastBuildDate><item><title>Django 1.2.3 released
+</title><link>http://www.djangoproject.com/weblog/2010/sep/10/123/</link><description>&lt;p&gt;Today the Django team has released Django 1.2.3, which remedies several issues with the recent 1.2.2 package.&lt;/p&gt;
+
+&lt;p&gt;This package corrects the following problems:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The patch applied for &lt;a href="http://www.djangoproject.com/weblog/2010/sep/08/security-release/"&gt;the security issue&lt;/a&gt; covered in Django 1.2.2 caused issues with non-ASCII responses using CSRF tokens. This has been remedied.&lt;/li&gt;
+&lt;li&gt;The patch also caused issues with some forms, most notably the user-editing forms in the Django administrative interface. This has been remedied.&lt;/li&gt;
+&lt;li&gt;The packaging manifest did not contain the full list of required files. This has been remedied.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All users of Django are encouraged to upgrade to Django 1.2.3 immediately; the 1.2.3 package can be obtained from &lt;a href="/download/"&gt;the Django downloads page&lt;/a&gt;, and as always &lt;a href="http://media.djangoproject.com/pgp/Django-1.2.3.checksum.txt"&gt;signed checksums for the package&lt;/a&gt; are available.&lt;/p&gt;
+</description><pubDate>Fri, 10 Sep 2010 23:54:52 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/sep/10/123/</guid></item><item><title>Security release issued
+</title><link>http://www.djangoproject.com/weblog/2010/sep/08/security-release/</link><description>&lt;p&gt;Today the Django team is issuing a new release -- Django 1.2.2 -- to remedy a security issue reported to us. This issue was disclosed independently by two different parties, and all users of Django 1.2 are urged to upgrade immediately.&lt;/p&gt;
+
+
+&lt;h3&gt;Description of issue&lt;/h3&gt;
+
+&lt;p&gt;As of the 1.2 release, the core Django framework includes a system,
+enabled by default, for detecting and preventing cross-site request
+forgery (CSRF) attacks against Django-powered applications. Previous
+Django releases provided a different, optionally-enabled system for
+the same purpose.&lt;/p&gt;
+
+&lt;p&gt;The Django 1.2 CSRF protection system involves the generation of a
+random token, inserted as a hidden field in outgoing forms. The same
+value is also set in a cookie, and the cookie value and form value are
+compared on submission.&lt;/p&gt;
+
+&lt;p&gt;The provided template tag for inserting the CSRF token into forms --
+&lt;code&gt;{% csrf_token %}&lt;/code&gt; -- explicitly trusts the cookie value, and
+displays it as-is. Thus, an attacker who is able to tamper with the
+value of the CSRF cookie can cause arbitrary content to be inserted,
+unescaped, into the outgoing HTML of the form, enabling cross-site
+scripting (XSS) attacks.&lt;/p&gt;
+
+&lt;p&gt;This issue was first reported via a public ticket in Django's Trac
+instance; while being triaged it was then independently reported, with
+broader description, by Jeff Balogh of Mozilla.&lt;/p&gt;
+
+
+&lt;h3&gt;Affected versions&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Django development trunk&lt;/li&gt;
+&lt;li&gt;Django 1.2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Because the current CSRF-protection system is new as of Django 1.2,
+older releases are unaffected.&lt;/p&gt;
+
+&lt;h3&gt;Resolution&lt;/h3&gt;
+
+&lt;p&gt;Patches have been applied to Django trunk and to the 1.2 release branch to ensure the cookie value is never trusted and is always escaped. Future Django releases may migrate away from the use of a dedicated cookie to avoid the possibility of such issues.&lt;/p&gt;
+
+&lt;p&gt;Patches may be obtained directly from the appropriate changesets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Django trunk: &lt;a href="http://code.djangoproject.com/changeset/13698"&gt;Changeset 13698&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Django 1.2: &lt;a href="http://code.djangoproject.com/changeset/13699"&gt;Changeset 13699&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following release has been issued:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Django 1.2.2 (&lt;a href="http://www.djangoproject.com/download/1.2.2/tarball/"&gt;download&lt;/a&gt; | &lt;a href="http://media.djangoproject.com/pgp/Django-1.2.2.checksum.txt"&gt;checksums&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;General notes regarding security&lt;/h3&gt;
+
+&lt;p&gt;As always, we ask that potential security issues be reported via private email to &lt;code&gt;security@djangoproject.com&lt;/code&gt;, and not via Django's Trac instance or the django-developers list.&lt;/p&gt;
+
+&lt;p&gt;Due to the time-sensitive nature of this issue, our normal process of advance notification of distributors of Django was not followed; notification to distributors was sent just prior to issuance of this release. If you are or represent a third-party distributor of Django and did not receive a notification email from the Django release manager, please contact &lt;code&gt;james@b-list.org&lt;/code&gt;.&lt;/p&gt;
+
+</description><pubDate>Wed, 08 Sep 2010 17:46:56 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/sep/08/security-release/</guid></item><item><title>Django 1.2.1 released
+</title><link>http://www.djangoproject.com/weblog/2010/may/24/121/</link><description>&lt;p&gt;As &lt;a href="http://www.djangoproject.com/weblog/2010/may/21/121/"&gt;previously announced&lt;/a&gt;, today marks the release of Django 1.2.1, the first bugfix release in the Django 1.2 series. For the package itself, swing by &lt;a href="/download/"&gt;our downloads page&lt;/a&gt;; and as always, &lt;a href="http://media.djangoproject.com/pgp/Django-1.2.1.checksum.txt"&gt;signed checksums of the release package&lt;/a&gt; are available.&lt;/p&gt;
+
+&lt;p&gt;As a bugfix release, Django 1.2.1 contains no new features -- only the fixes for a few bugs noted in the previous announcements, along with two more tickets which had quick fixes available: &lt;a href="http://code.djangoproject.com/ticket/13592"&gt;#13592&lt;/a&gt; and &lt;a href="http://code.djangoproject.com/ticket/13590"&gt;#13590&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Mon, 24 May 2010 14:25:31 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/24/121/</guid></item><item><title>Django 1.2.1 -- update 2
+</title><link>http://www.djangoproject.com/weblog/2010/may/21/121/</link><description>&lt;p&gt;As mentioned &lt;a href="http://www.djangoproject.com/weblog/2010/may/18/121/"&gt;previously&lt;/a&gt;, we decided to hold off the release of Django 1.2.1 a bit to investigate a bug reported shortly after 1.2; I'm happy to announce that the relevant ticket has now been closed out, along with a couple of other tickets reported against 1.2. To be on the safe side, though, we're going to give Django 1.2 the rest of the weekend to shake out a bit, and release Django 1.2.1 on Monday, May 24.&lt;/p&gt;
+
+&lt;p&gt;Assuming no other critical issues come up over the weekend, Django 1.2.1 will differ from 1.2 in having an updated documentation builder, and the fixes for the following issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://code.djangoproject.com/ticket/13577"&gt;#13577 -- updated Polish localization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://code.djangoproject.com/ticket/13569"&gt;#13569 -- applying the correct username restrictions during superuser creation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://code.djangoproject.com/ticket/13560"&gt;#13560 -- fix localization with &lt;code&gt;SplitDateTimeField&lt;/code&gt; and other multi-value fields/widgets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://code.djangoproject.com/ticket/13573"&gt;#13573 -- ensuring the cached template loader uses the correct full template path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://code.djangoproject.com/ticket/13566"&gt;#13566&lt;/a&gt; and &lt;a href="http://code.djangoproject.com/ticket/13563"&gt;#13563&lt;/a&gt; -- fixing a few typos in the documentation.&lt;/li&gt;
+&lt;/ul&gt;
+</description><pubDate>Fri, 21 May 2010 15:08:44 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/21/121/</guid></item><item><title>Announcing DjangoCon US 2010
+</title><link>http://www.djangoproject.com/weblog/2010/may/20/djangocon-us-2010/</link><description>&lt;p&gt;It's official: &lt;a class="reference external" href="http://djangocon.us/"&gt;DjangoCon US 2010&lt;/a&gt; is a go!&lt;/p&gt;
+&lt;p&gt;We're back in Portland, Oregon September 7th-9th. Last year was a blast, and the
+planning team is working their butts off to make sure that this year is even
+better. Come on out to see some great talks and meet a bunch of awesome people.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://djangocon.us/tickets/"&gt;Registration&lt;/a&gt; and &lt;a class="reference external" href="http://djangocon.us/speaker/"&gt;talk submissions&lt;/a&gt; are open at &lt;a class="reference external" href="http://djangocon.us/"&gt;djangocon.us&lt;/a&gt;, where
+you'll also find venue information, schedules, and all other conference details.
+You'll want to register soon: early bird rates end June 8th and we may sell out
+before then.&lt;/p&gt;
+&lt;p&gt;We'll be holding &lt;a class="reference external" href="http://code.djangoproject.com/wiki/Sprints"&gt;development sprints&lt;/a&gt; the three days following the conference
+(September 10th - 12th). The sprints, as always, are free, and everyone's
+invited (including those who didn't come to the conference).&lt;/p&gt;
+&lt;p&gt;This year there's a new crew bringing you the conference: DjangoCon US 2010 is
+being produced by &lt;a class="reference external" href="http://shmpe.com/"&gt;Steve Holden's Mighty Python Empire&lt;/a&gt;, technically supported
+by &lt;a class="reference external" href="http://eldarion.com/"&gt;Eldarion&lt;/a&gt;, and &lt;a class="reference external" href="http://djangocon.us/about/"&gt;run by the community&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I hope to see you there!&lt;/p&gt;
+
+</description><pubDate>Thu, 20 May 2010 14:49:53 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/20/djangocon-us-2010/</guid></item><item><title>Django 1.2.1 update
+</title><link>http://www.djangoproject.com/weblog/2010/may/18/121/</link><description>&lt;p&gt;Following &lt;a href="http://www.djangoproject.com/weblog/2010/may/17/12/"&gt;yesterday's release of Django 1.2&lt;/a&gt;, we noted that an issue was discovered with the script which builds the Django documentation, and that Django 1.2.1 would be released today to remedy that.&lt;/p&gt;
+
+&lt;p&gt;Today as we were preparing for that release, another issue was brought up, revealing &lt;a href="http://code.djangoproject.com/ticket/13560"&gt;a bug in form localization&lt;/a&gt; that we'd like to deal with immediately if possible; as such, we're going to delay 1.2.1 one more day -- releasing it May 19, 2010, US Central time -- while we work on it. This does mean another day with the incorrect docs builder, but if at all possible we'd like to quash the forms bug quickly rather than wait to deal with it in a regular bugfix release.&lt;/p&gt;
+</description><pubDate>Tue, 18 May 2010 22:57:22 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/18/121/</guid></item><item><title>Django 1.2 released
+</title><link>http://www.djangoproject.com/weblog/2010/may/17/12/</link><description>&lt;p&gt;It's here!&lt;/p&gt;
+
+&lt;p&gt;After many months of work, we're proud to announce the release today of Django 1.2. There's so much cool stuff packed into it that even a summary can't do it justice; you'll just have to go read &lt;a href="http://docs.djangoproject.com/en/dev/releases/1.2/"&gt;the release notes&lt;/a&gt; to see it all, then swing by &lt;a href="/download/"&gt;the downloads page&lt;/a&gt; to grab a copy. And as always, &lt;a href="http://media.djangoproject.com/pgp/Django-1.2.checksum.txt"&gt;signed checksums for the release package&lt;/a&gt; are available.&lt;/p&gt;
+
+&lt;p&gt;One important point is worth mentioning here, however: Django 1.2 is, as covered in the release notes, the first official release of Django which &lt;i&gt;does not&lt;/i&gt; support Python 2.3. Django still runs on 2.x Python, but the minimum version requirement is now 2.4. Django 1.1, which is still supported with security updates, continues to provide Python 2.3 support if you need it, and will do so until its support lifetime ends with the release of Django 1.3.&lt;/p&gt;
+
+&lt;p&gt;Finally, we'd like to point out, as always, that we couldn't do this without the help of the huge numbers of people all around the world who contribute to and improve Django every single day. All of you should give yourselves a big pat on the back, and if you happen to be in Berlin next week, go celebrate with your fellow Djangonauts at &lt;a href="http://djangocon.eu/"&gt;DjangoCon EU&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; It's been pointed out that the config file which builds the Django documentation didn't get its version number incremented in the Django 1.2 package. To rectify this we're going to wait 24 hours to make sure no other oversights are discovered in 1.2, then issue Django 1.2.1 tomorrow afternoon -- May 18, US Central time -- with an updated documentation builder.&lt;/p&gt;
+</description><pubDate>Mon, 17 May 2010 13:08:23 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/17/12/</guid></item><item><title>Django 1.1.2 released
+</title><link>http://www.djangoproject.com/weblog/2010/may/17/112/</link><description>&lt;p&gt;Although most attention recently has been on the Django 1.2 development and release process, the Django team is pleased to announce the release of Django 1.1.2. This is the second bugfix release in the Django 1.1 series; it consists -- with one important exception, detailed in &lt;a href="http://docs.djangoproject.com/en/1.1/releases/1.1.2/"&gt;the release notes&lt;/a&gt; -- entirely of bugs which were either fixed specifically in the Django 1.1 tree, or fixed in trunk as part of the 1.2 process and then backported. Note that the resolutions for two bugs fixed in this release may cause compatibility issues in rare cases; consult the release notes for more information.&lt;/p&gt;
+
+&lt;p&gt;As this is a purely bugfix release, its release notes are rather sparses; if you're interested in a full list of the fixes applied, please consult &lt;a href="http://code.djangoproject.com/browser/django/branches/releases/1.1.X"&gt;the log of the 1.1 branch&lt;/a&gt; for details. &lt;a href="http://media.djangoproject.com/pgp/Django-1.1.2.checksum.txt"&gt;Signed checksums for Django 1.1.2&lt;/a&gt; are also available.&lt;/p&gt;
+
+&lt;p&gt;Also, please note that the release of Django 1.2, expected later today, will mark the end of general bugfix support for the Django 1.1 series; the only updates to 1.1 from this point on will be for security issues, if needed, and all support for the Django 1.1 series will end with the release of Django 1.3.&lt;/p&gt;
+</description><pubDate>Mon, 17 May 2010 12:00:59 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/17/112/</guid></item><item><title>Django 1.2 release schedule -- final update
+</title><link>http://www.djangoproject.com/weblog/2010/may/15/release-schedule/</link><description>&lt;p&gt;It's been ten days now since &lt;a href="http://www.djangoproject.com/weblog/2010/may/05/12-rc-1/"&gt;the Django 1.2 release candidate&lt;/a&gt;, and no new blocking bugs have been reported, so we're giving Django 1.2 the green light. The final 1.2 release will take place on Monday, May 17, 2010.&lt;/p&gt;
+
+&lt;p&gt;Between now and Monday, the only things we'll be accepting (barring any release-blocking bugs -- but we're not aware of any) are updated translation files; if you've got translations you haven't yet submitted, please get them into Trac as quickly as possible so we can deal with them before the final release.&lt;/p&gt;
+</description><pubDate>Sat, 15 May 2010 00:56:44 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/15/release-schedule/</guid></item><item><title>Django 1.2 release candidate available
+</title><link>http://www.djangoproject.com/weblog/2010/may/05/12-rc-1/</link><description>&lt;p&gt;As part of the Django 1.2 release process, tonight we've released Django 1.2 release candidate 1, a preview/testing package that gives a little taste of some of the new features coming in Django 1.2. As with all pre-release packages, this is &lt;strong&gt;not&lt;/strong&gt; for production use, but if you'd like to try out some of the new goodies coming in 1.2, or if you'd like to pitch in and help us fix bugs before the final 1.2 release (due in one week), feel free to grab a copy and give it a spin.&lt;/p&gt;
+
+&lt;p&gt;You can get a copy of the 1.2 release candidate package from &lt;a href="/download/"&gt;our downloads page&lt;/a&gt;, and we recommend you read &lt;a href="http://docs.djangoproject.com/en/dev/releases/1.2-rc-1/"&gt;the release notes&lt;/a&gt;. Also, for the security conscious, signed MD5 and SHA1 checksums of the 1.2 release candidate package &lt;a href="http://media.djangoproject.com/pgp/Django-1.2-rc-1.checksum.txt"&gt;are available&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Wed, 05 May 2010 23:37:13 -0500</pubDate><guid>http://www.djangoproject.com/weblog/2010/may/05/12-rc-1/</guid></item></channel></rss>

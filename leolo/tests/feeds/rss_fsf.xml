@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://www.fsf.org/blogs/recent-blog-posts/RSS">
+  <title>Recent blog posts</title>
+  <link>http://www.fsf.org</link>
+  
+  <description>
+    
+       Writing by representatives of the Free Software Foundation. 
+       
+  </description>
+  
+  
+  
+            <syn:updatePeriod>hourly</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2010-03-08T19:22:44Z</syn:updateBase>
+        
+  
+  <image rdf:resource="http://www.fsf.org/logo.jpg"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/whos-using-free-software"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/acta-action-call-on-obama-to-end-the-secrecy-reject-the-treaty"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-august-2010"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/libreplanet-audio-and-video-is-now-ready"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/acta-petition-delivered"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/gnu-social-alpha-release-ritter-now-available"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/lp2010-moglen-state-of-free-sw"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-july-2010"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/interns/2010/defective-by-design-and-upcoming-work"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/defending-against-laws-which-threaten-user-freedom"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/where-were-going-working-together-for-free-software"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-june-2010"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/interns/2010/working-together-for-free-software"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/software-patents-after-bilski"/>
+        
+        
+            <rdf:li rdf:resource="http://www.fsf.org/blogs/bilski-party-come-what-may"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://www.fsf.org/blogs/community/whos-using-free-software">        <title>Look who's using free software...</title>        <link>http://www.fsf.org/blogs/community/whos-using-free-software</link>        <description>Today, we've added two new resources to our "Working Together for Free Software" campaign</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>peterb</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-09-13T19:52:01Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/acta-action-call-on-obama-to-end-the-secrecy-reject-the-treaty">        <title>ACTA Action: Call on Obama to end the secrecy, reject the treaty</title>        <link>http://www.fsf.org/blogs/community/acta-action-call-on-obama-to-end-the-secrecy-reject-the-treaty</link>        <description>Please read and share this article by Knowledge Ecology International's James Love, sign our anti-ACTA petition, and call on Obama to publish the treaty text.
+</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>johns</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-09-03T22:21:34Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-august-2010">        <title>GNU Spotlight with Karl Berry (August 2010)</title>        <link>http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-august-2010</link>        <description>This month we welcome Jose Marchesi as maintainer of the new package
+recutils, Mike Gran as maintainer of the new package guile-ncurses, and
+long-time maintainers Bruno Haible, Jim Meyering, and Simon Josefsson
+adding the new package vc-changelog to their duties.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>Karl Berry</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-31T20:39:08Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/libreplanet-audio-and-video-is-now-ready">        <title>LibrePlanet 2010 audio and video is now ready</title>        <link>http://www.fsf.org/blogs/community/libreplanet-audio-and-video-is-now-ready</link>        <description>Thanks to the efforts of summer campaigns intern, Steve DuBois, we
+have all the video and audio from the conference ready for your
+viewing pleasure.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-31T20:30:18Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/acta-petition-delivered">        <title>ACTA petition delivered</title>        <link>http://www.fsf.org/blogs/community/acta-petition-delivered</link>        <description>Over 4,000 signatures delivered to US trade representatives and others.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>peterb</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-20T20:14:11Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/gnu-social-alpha-release-ritter-now-available">        <title>GNU social alpha release 'Ritter' now available</title>        <link>http://www.fsf.org/blogs/community/gnu-social-alpha-release-ritter-now-available</link>        <description>GNU social has made great progress during the last few weeks --
+version alpha 0.1 ("Ritter") was announced and made it finally
+possible to try out GNU social, and run your own site. </description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>peterb</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-02T18:49:26Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/lp2010-moglen-state-of-free-sw">        <title>LibrePlanet 2010: Eben Moglen on the current state of free software</title>        <link>http://www.fsf.org/blogs/community/lp2010-moglen-state-of-free-sw</link>        <description>At this year's LibrePlanet conference hosted by the Free Software Foundation, Eben Moglen of the Software Freedom Law Center gave a keynote speech on the current state of free software and the free software movement.
+</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-02T13:55:20Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-july-2010">        <title>GNU Spotlight with Karl Berry (July 2010)</title>        <link>http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-july-2010</link>        <description>This month we welcome Joel Jose as the new maintainer of GNU gnatsweb, and Sebastien Diaz as the new maintainer of GNU rpge (adding to his other packages).</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-03T16:28:46Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/interns/2010/defective-by-design-and-upcoming-work">        <title>Defective by Design and upcoming work</title>        <link>http://www.fsf.org/blogs/interns/2010/defective-by-design-and-upcoming-work</link>        <description>This summer, Danny Piccirillo and Steven DuBois are the campaigns interns at the FSF. In this, their second video in an ongoing collection, they talk about the newly launched working together for free software campaign.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-07-09T22:17:03Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/defending-against-laws-which-threaten-user-freedom">        <title>Defending against laws which threaten user freedom</title>        <link>http://www.fsf.org/blogs/community/defending-against-laws-which-threaten-user-freedom</link>        <description>As our mission here at the Free Software Foundation is to promote computer user freedom and to defend the rights of all free software users, we also have to defend against ill-conceived and misguided laws. Many of you may already be aware of an international trade agreement being negotiated by the G8 nations called ACTA, but another law known as the Digital Economy Act is of concern, specifically to citizens of the UK. 
+</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-07-09T15:30:04Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/where-were-going-working-together-for-free-software">        <title>Where we're going: Working together for Free Software</title>        <link>http://www.fsf.org/blogs/community/where-were-going-working-together-for-free-software</link>        <description>By working together for free software in a focused movement, we can do
+much more than the sum of our individual or project efforts.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-07-09T00:47:49Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-june-2010">        <title>GNU Spotlight with Karl Berry (June 2010)</title>        <link>http://www.fsf.org/blogs/community/gnu-spotlight-with-karl-berry-june-2010</link>        <description>This month we welcome Delyan Raychev as the new maintainer of GNU Oleo, and Luis Strano Moraes as the new maintainer of GNU Shogi.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-08-03T16:29:46Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/interns/2010/working-together-for-free-software">        <title>Working together for free software</title>        <link>http://www.fsf.org/blogs/interns/2010/working-together-for-free-software</link>        <description>This summer, Danny Piccirillo and Steven DuBois are the campaigns interns at the FSF. In this, their second video in an ongoing collection, they talk about the newly launched working together for free software campaign.</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>mattl</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-06-29T23:24:24Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/software-patents-after-bilski">        <title>Software patents after Bilski</title>        <link>http://www.fsf.org/blogs/software-patents-after-bilski</link>        <description>Bilski gave us a wonderful opportunity to increase awareness to the harm caused by software patents. More scholars, more developers, more journalists, more politicians, and more patent attorneys than ever before have heard from our community on this issue.  What's next?</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>peterb</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-06-29T16:40:07Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+    <item rdf:about="http://www.fsf.org/blogs/bilski-party-come-what-may">        <title>Bilski party come what may</title>        <link>http://www.fsf.org/blogs/bilski-party-come-what-may</link>        <description>FSF welcomes Supreme Court watchers to a post Bilski party</description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>peterb</dc:creator>        <dc:rights></dc:rights>                <dc:date>2010-06-28T13:58:33Z</dc:date>        <dc:type>Blog Entry</dc:type>    </item>
+
+
+
+
+</rdf:RDF>

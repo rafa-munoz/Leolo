@@ -1,0 +1,36 @@
+Introduction
+============
+
+Leolo is a RSS/Atom feed manager library. It allows you to:
+
+- Add/Edit a list of feeds.
+- Get any content from feeds:
+    - Feed title.
+    - Feed url.
+    - Feed's last update.
+    - Feed's new entries:
+        - Entry title.
+        - Entry link.
+        - Entry content.
+        - Entry enclosures.
+        - Entry links (included in content).
+- Filter new entries.
+
+Requirements
+============
+
+- Python 2.6
+- SQLAlchemy
+- Pyparsing
+- Feedparser (http://www.feedparser.org/)
+
+Installation
+============
+
+Just execute:
+``python setup.py install``
+
+Usage
+=====
+
+

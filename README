@@ -78,6 +78,16 @@ $ python setup.py install --home=$HOME
 If installation was successful, configure the ''settings.py'' file.
 
 
+Uninstalling Leolo
+------------------
+
+Unfortunatelly, there isn't a ''python setup.py uninstall'', you have to do
+it manually.
+
+Go to the place where you installed the application - e.g. $HOME/lib/python -
+and delete the .egg file(s) and the line which points at it in
+''easy-install.pth''.
+
 Usage
 =====
 

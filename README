@@ -30,10 +30,6 @@ Dependencies
 Installation
 ============
 
-First, download the source code from the official page:
-http://github.com/Menda/Leolo
-
-
 Install dependencies
 --------------------
 
@@ -72,6 +68,8 @@ Visit each website and follow their instructions to install the software:
 
 Leolo installation
 ------------------
+
+First, download the source code from the official page: http://github.com/Menda/Leolo
 
 $ sudo python setup.py install
 

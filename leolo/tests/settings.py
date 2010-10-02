@@ -14,17 +14,12 @@
 # permissions and limitations under the License.
 
 """
-Example settings for Leolo.
+Example settings for Leolo tests.
 """
 
 import os
 
-# Define db engine. e.g.: sqlite, postgresql, mysql...
-# Important: must be a supported db by your SQLAlchemy version. and you
-# must use the same syntax.
-#ENGINE = "mysql://user:password@localhost/database"
 LEOLO_ENGINE = "sqlite:///database.sqlite"
-
 LEOLO_PARALLEL_DL = 4 # max parallel downloads
 
 # whitelist domains (no http or www prefix needed)

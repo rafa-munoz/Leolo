@@ -231,7 +231,7 @@ class FeedManager(object):
             # minutes ago, then download headers
             if not feed.last_check or \
                feed.last_check + timedelta(minutes=minutes) < datetime.now():
-                while (self.count_downloading >= settings.PARALLEL_DL):
+                while (self.count_downloading >= settings.LEOLO_PARALLEL_DL):
                     sleep(0.4)
                 dl = HeadDownloader(feed.url, self.process_feed)
                 dl.start()

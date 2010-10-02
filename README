@@ -30,10 +30,13 @@ Dependencies
 Installation
 ============
 
+First, download the source code from the official page:
+http://github.com/Menda/Leolo
+
 Install dependencies
 --------------------
 
-Install the dependencies first. There is more than one way to do this:
+There is more than one way to do this:
 
 
 In Debian/Ubuntu with root access

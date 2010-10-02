@@ -16,21 +16,71 @@ Leolo is a RSS/Atom feed manager library. It allows you to:
         - Entry links (included in content).
 - Filter new entries.
 
-Requirements
+
+Dependencies
 ============
 
 - Python 2.6
 - SQLAlchemy
-- Pyparsing
-- Feedparser (http://www.feedparser.org/)
+- pysqlite
+- pyparsing
+- FeedParser
+
 
 Installation
 ============
 
-Just execute:
-``python setup.py install``
+Install dependencies
+--------------------
+
+Install the dependencies first. There is more than one way to do this:
+
+
+In Debian/Ubuntu with root access
+_________________________________
+
+  $ sudo apt-get install python-sqlalchemy python-pyparsing python-feedparser python-sqlite
+
+
+With easy_install
+_________________
+
+If you have root access, then you can do:
+
+$ sudo easy_install feedparser pyparsing pysqlite SQLAlchemy
+
+If you haven't, make sure you set a valid --install-dir which is also in your
+PYTHONPATH:
+
+$ easy_install --install-dir=$HOME/lib/python feedparser pyparsing pysqlite SQLAlchemy
+
+
+Manual installation
+___________________
+
+Visit each website and follow their instructions to install the software:
+
+- http://www.sqlalchemy.org/
+- http://code.google.com/p/pysqlite/
+- http://pyparsing.wikispaces.com/
+- http://www.feedparser.org/
+
+
+Leolo installation
+------------------
+
+$ sudo python setup.py install
+
+or
+
+$ python setup.py install --home=$HOME/lib/python
+
+If installation was successful, configure the ''settings.py'' file.
+
 
 Usage
 =====
 
+Take a look to the examples in examples directory to have an idea how to
+use this library.
 

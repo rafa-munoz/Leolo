@@ -40,16 +40,16 @@ class Feed(Base):
 
     url = Column(String(300), primary_key=True) # feed url
     last_modified = Column(String(150)) # last feed's modification date
-    check = Column(DateTime()) # last feed checking
-    update = Column(DateTime()) # last feed updating
+    last_check = Column(DateTime()) # last feed checking
+    last_update = Column(DateTime()) # last feed update
     last_entrylink = Column(String(500)) # last entry link
     siteid = Column(Integer, ForeignKey("leolo_sites.id")) # site id owns this feed
 
     def __init__(self, site, url):
         self.url = url
         self.last_modified = None
-        self.check = None
-        self.update = None
+        self.last_check = None
+        self.last_update = None
         self.last_entrylink = None
         self.updated = False
 
@@ -102,7 +102,7 @@ class Feed(Base):
         return self.__unicode__()
 
     def __unicode__(self):
-        return "<Feed('%s', u=%s)>" % (self.url, self.update)
+        return "<Feed('%s', last update=%s)>" % (self.url, self.last_update)
 
 class Entry(object):
     """

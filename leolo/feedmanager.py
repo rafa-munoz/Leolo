@@ -24,13 +24,13 @@ def date_compare(x, y):
     """
     Function to order feeds by last check date.
     """
-    if not x.check:
+    if not x.last_check:
         return -1
-    if not y.check:
+    if not y.last_check:
         return 1
-    if x.check > y.check:
+    if x.last_check > y.last_check:
         return 1
-    elif x.check == y.check:
+    elif x.last_check == y.last_check:
         return 0
     else:
         return -1
@@ -191,7 +191,7 @@ class FeedManager(object):
         for feed in self.feeds:
             if feed.url == hdl.url:
                 break
-        feed.check = datetime.now()
+        feed.last_check = datetime.now()
         # Check last_modified
         if not feed.last_modified \
            or feed.last_modified != hdl.info["last-modified"]:
@@ -229,8 +229,8 @@ class FeedManager(object):
         for feed in self.feeds:
             # If the feed wasn't checked or was checked before 'minutes'
             # minutes ago, then download headers
-            if not feed.check or \
-               feed.check + timedelta(minutes=minutes) < datetime.now():
+            if not feed.last_check or \
+               feed.last_check + timedelta(minutes=minutes) < datetime.now():
                 while (self.count_downloading >= settings.PARALLEL_DL):
                     sleep(0.4)
                 dl = HeadDownloader(feed.url, self.process_feed)

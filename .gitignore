@@ -3,3 +3,4 @@ RELEASE-VERSION
 build
 dist
 leolo.egg-info
+*.sqlite

@@ -23,12 +23,12 @@ import os
 # Important: must be a supported db by your SQLAlchemy version. and you
 # must use the same syntax.
 #ENGINE = "mysql://user:password@localhost/database"
-ENGINE = "sqlite:///database.sqlite"
+LEOLO_ENGINE = "sqlite:///database.sqlite"
 
-PARALLEL_DL = 4 # max parallel downloads
+LEOLO_PARALLEL_DL = 4 # max parallel downloads
 
 # whitelist domains (no http or www prefix needed)
-whitelist = [
+LEOLO_WHITELIST = (
    "4shared.com",
    "badongo.com",
    "easy-share.com",
@@ -43,11 +43,10 @@ whitelist = [
    "storage.to",
    "zshare.net",
    "uploading.com",
-]
+)
 
-blacklist = [
-]
+LEOLO_BLACKLIST = (
+)
 
-PATH = os.path.join(os.path.expanduser("~"), ".leolo")
-LOG_FILENAME = os.path.join(PATH, "leolo.log")
+LEOLO_PATH = os.path.join(os.path.expanduser("~"), ".leolo")
 

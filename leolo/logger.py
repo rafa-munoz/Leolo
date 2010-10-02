@@ -2,20 +2,22 @@ import os
 import logging
 import logging.handlers
 import sys
-from settings import PATH, LOG_FILENAME
+import settings
 
 class Logger(object):
     """
     Logger Manager.
     Handles all logging files.
     """
+    LOG_FILENAME = os.path.join(PATH, "leolo.log")
+
     def __init__(self, loggername="root"):
         self.logger = logging.getLogger(loggername)
-        if not os.path.isdir(PATH):
+        if not os.path.isdir(LEOLO_PATH):
             try:
-                os.mkdir(PATH) # create dir if it doesn't exist
+                os.mkdir(LEOLO_PATH) # create dir if it doesn't exist
             except:
-                raise IOError("Couldn't create \"" + PATH + "\" folder. Check"
+                raise IOError("Couldn't create \"" + LEOLO_PATH + "\" folder. Check"
                               " permissions")
         try:
             handler = logging.handlers.RotatingFileHandler(LOG_FILENAME, mode="a", maxBytes=61440)

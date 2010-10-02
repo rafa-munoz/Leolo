@@ -91,6 +91,6 @@ and delete the .egg file(s) and the line which points at it in
 Usage
 =====
 
-Take a look to the examples in examples directory to have an idea how to
+Take a look to the examples directory to have an idea of how to
 use this library.
 

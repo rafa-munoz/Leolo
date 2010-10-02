@@ -5,7 +5,7 @@ from parser import searchExpr
 from logger import Logger
 from urllister import URLLister
 from BeautifulSoup import BeautifulSoup
-from settings import whitelist, blacklist
+import settings
 
 class Filter(object):
     """
@@ -67,9 +67,9 @@ class Filter(object):
             for url in lister.urls:
                 l = None
                 if args[0] == "whitelist":
-                    l = whitelist
+                    l = settings.LEOLO_WHITELIST
                 elif args[0] == "blacklist":
-                    l = blacklist
+                    l = settings.LEOLO_BLACKLIST
                 for domain in l:
                     # urlparse()[1] extracts domain
                     if urlparse(url)[1].endswith(domain):
@@ -86,9 +86,9 @@ class Filter(object):
             for url in entry.enclosures_cp:
                 l = None
                 if args[0] == "whitelist":
-                    l = whitelist
+                    l = settings.LEOLO_WHITELIST
                 elif args[0] == "blacklist":
-                    l = blacklist
+                    l = settings.LEOLO_BLACKLIST
                 for domain in l:
                     # urlparse()[1] extracts domain
                     if urlparse(url)[1].endswith(domain):

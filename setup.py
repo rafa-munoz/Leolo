@@ -21,7 +21,7 @@ setup(
       ("Topic :: Software Development :: Libraries :: Python Modules"),
    ],
    keywords = "rss atom feed xml manager management",
-   author = "Rafa Muñoz Cárdenas",
+   author = unicode("Rafa Muñoz Cárdenas", "utf-8"),
    author_email = "contact+fs@rmunoz.net",
    url = "http://github.com/Menda/Leolo",
    license = "Apache License, Version 2.0",

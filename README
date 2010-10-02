@@ -88,6 +88,7 @@ Go to the place where you installed the application - e.g. $HOME/lib/python -
 and delete the .egg file(s) and the line which points at it in
 ''easy-install.pth''.
 
+
 Usage
 =====
 

@@ -9,7 +9,7 @@ class Logger(object):
     Logger Manager.
     Handles all logging files.
     """
-    LOG_FILENAME = os.path.join(PATH, "leolo.log")
+    LOG_FILENAME = os.path.join(LEOLO_PATH, "leolo.log")
 
     def __init__(self, loggername="root"):
         self.logger = logging.getLogger(loggername)

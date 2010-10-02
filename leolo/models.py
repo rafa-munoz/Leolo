@@ -40,7 +40,7 @@ class Feed(Base):
 
     url = Column(String(300), primary_key=True) # feed url
     last_modified = Column(String(150)) # last feed's modification date
-    last_check = Column(DateTime()) # last feed checking
+    last_check = Column(DateTime()) # last feed check
     last_update = Column(DateTime()) # last feed update
     last_entrylink = Column(String(500)) # last entry link
     siteid = Column(Integer, ForeignKey("leolo_sites.id")) # site id owns this feed

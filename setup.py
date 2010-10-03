@@ -26,5 +26,6 @@ setup(
    url = "http://github.com/Menda/Leolo",
    license = "Apache License, Version 2.0",
    packages = find_packages(),
+   zip_safe = False,
 )
 

@@ -37,7 +37,7 @@ __all__ = ("get_git_version")
 from subprocess import Popen, PIPE
 
 
-def call_git_describe(abbrev=4):
+def call_git_describe(abbrev=0):
     try:
         p = Popen(['git', 'describe', '--abbrev=%d' % abbrev],
                   stdout=PIPE, stderr=PIPE)

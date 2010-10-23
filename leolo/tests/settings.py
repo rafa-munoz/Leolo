@@ -43,5 +43,3 @@ LEOLO_WHITELIST = (
 LEOLO_BLACKLIST = (
 )
 
-LEOLO_PATH = os.path.join(os.path.expanduser("~"), ".leolo")
-

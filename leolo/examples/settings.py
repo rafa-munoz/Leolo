@@ -48,5 +48,7 @@ LEOLO_WHITELIST = (
 LEOLO_BLACKLIST = (
 )
 
-LEOLO_PATH = os.path.join(os.path.expanduser("~"), ".leolo")
+# Optional parameter. It's the path where logs are stored
+# Default path will be $HOME/.leolo
+# LEOLO_PATH = os.path.join("my", "path", "leolo")
 

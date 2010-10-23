@@ -175,7 +175,7 @@ class Test(unittest.TestCase):
             m.del_site(valid[0])
 
     def test12_logger_dir(self):
-        if not os.path.isdir(settings.LEOLO_PATH):
+        if not os.path.isdir(os.path.join(os.path.expanduser('~'), '.leolo')):
             raise AssertionError("Logger dir can't be created! Check permissions.")
 
 if __name__ == "__main__":

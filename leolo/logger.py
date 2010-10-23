@@ -1,4 +1,5 @@
 import logging
+from logging.handlers import RotatingFileHandler
 import os
 import sys
 import settings
@@ -24,7 +25,7 @@ class Logger(object):
                 raise IOError("Couldn't create \"" + PATH +
                               "\" folder. Check permissions")
         try:
-            handler = logging.handlers.RotatingFileHandler(LOG_FILENAME,
+            handler = RotatingFileHandler(LOG_FILENAME,
                mode="a", maxBytes=61440)
         except Exception, error:
             raise IOError("Couldn't create/open file \"" + LOG_FILENAME + "\""

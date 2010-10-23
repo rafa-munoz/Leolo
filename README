@@ -77,8 +77,6 @@ or
 
 $ python setup.py install --home=$HOME
 
-If installation was successful, configure the ''settings.py'' file.
-
 
 Uninstalling Leolo
 ------------------

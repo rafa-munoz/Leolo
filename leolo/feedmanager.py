@@ -10,7 +10,7 @@ from downloaders import HeadDownloader, Downloader
 from logger import Logger
 from models import Feed, Entry
 
-TIMEOUT = 10 # timeout in seconds
+TIMEOUT = 10 # timeout in seconds to download a feed
 
 feedparser._HTMLSanitizer.acceptable_elements = ['a', 'abbr', 'acronym',
    'address', 'area', 'b', 'big', 'blockquote', 'br', 'button', 'caption',
@@ -198,7 +198,7 @@ class FeedManager(object):
             # Download the Feed
             dl = Downloader(feed.url)
             dl.start()
-            dl.join(FeedManager.TIMEOUT * 2)
+            dl.join(TIMEOUT * 2)
             if dl.is_alive():
                 self.logger.info("Time out while getting feed '%s'." % (dl.url))
                 return
@@ -249,7 +249,7 @@ class FeedManager(object):
 
         # Joining threads to this main thread
         for dl in queue:
-            dl.join(FeedManager.TIMEOUT)
+            dl.join(TIMEOUT)
             if dl.is_alive():
                 self.logger.info("Time out while getting headers of '%s'." % (dl.url))
 

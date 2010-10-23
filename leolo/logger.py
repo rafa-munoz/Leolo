@@ -1,10 +1,13 @@
-import os
 import logging
-import logging.handlers
+import os
 import sys
 import settings
 
-LOG_FILENAME = os.path.join(settings.LEOLO_PATH, "leolo.log")
+try:
+    PATH = settings.LEOLO_PATH
+except AttributeError:
+    PATH = os.path.join(os.path.expanduser('~'), '.leolo')
+LOG_FILENAME = os.path.join(PATH, "leolo.log")
 
 class Logger(object):
     """
@@ -14,18 +17,20 @@ class Logger(object):
 
     def __init__(self, loggername="root"):
         self.logger = logging.getLogger(loggername)
-        if not os.path.isdir(settings.LEOLO_PATH):
+        if not os.path.isdir(PATH):
             try:
-                os.mkdir(settings.LEOLO_PATH) # create dir if it doesn't exist
+                os.mkdir(PATH) # create dir if it doesn't exist
             except:
-                raise IOError("Couldn't create \"" + settings.LEOLO_PATH +
+                raise IOError("Couldn't create \"" + PATH +
                               "\" folder. Check permissions")
         try:
-            handler = logging.handlers.RotatingFileHandler(LOG_FILENAME, mode="a", maxBytes=61440)
+            handler = logging.handlers.RotatingFileHandler(LOG_FILENAME,
+               mode="a", maxBytes=61440)
         except Exception, error:
             raise IOError("Couldn't create/open file \"" + LOG_FILENAME + "\""
                           ". Check permissions. Details:\n" + str(error))
-        formatter = logging.Formatter("%(asctime)s %(name)s - %(levelname)s - %(message)s")
+        formatter = logging.Formatter("%(asctime)s %(name)s - %(levelname)s "
+                                      "- %(message)s")
         handler.setFormatter(formatter)
         self.logger.setLevel(logging.DEBUG)
         self.logger.addHandler(handler)

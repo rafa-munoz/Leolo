@@ -1,6 +1,7 @@
 from sqlalchemy import *
 from sqlalchemy.orm import relation, backref
 from meta import Base, engine
+import util
 
 # Some shit SQLAlchemy needs
 metadata = Base.metadata
@@ -132,11 +133,11 @@ class Entry(object):
         if isinstance(links, str) or isinstance(links, unicode):
             # Add url if it's not repeated in list
             if not links in self.__links:
-                self.__links.append(sanitize_url(links))
+                self.__links.append(util.sanitize_url(links))
         elif isinstance(links, list):
             for link in links:
                 if not link in self.__links:
-                    self.__links.append(sanitize_url(link))
+                    self.__links.append(util.sanitize_url(link))
 
     links = property(get_links, set_link)
 

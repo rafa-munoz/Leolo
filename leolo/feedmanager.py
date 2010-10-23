@@ -1,14 +1,16 @@
-import threading
-import re
-from datetime import timedelta, datetime
 from collections import deque
+from datetime import timedelta, datetime
+import re
+import threading
+from time import sleep
 import xml.parsers.expat
 import feedparser
 import settings
 from downloaders import HeadDownloader, Downloader
-from models import Feed, Entry
 from logger import Logger
-from time import sleep
+from models import Feed, Entry
+
+TIMEOUT = 10 # timeout in seconds
 
 feedparser._HTMLSanitizer.acceptable_elements = ['a', 'abbr', 'acronym',
    'address', 'area', 'b', 'big', 'blockquote', 'br', 'button', 'caption',
@@ -37,7 +39,7 @@ def date_compare(x, y):
 
 def threadsafe_function(fn):
     """
-    Decorator making sure that the decorated function is thread safe.
+    Decorator for making sure that the decorated function is thread safe.
     http://stackoverflow.com/questions/1072821/
     """
     lock = threading.Lock()
@@ -57,8 +59,6 @@ class FeedManager(object):
     This class takes care about extracting all relevant information from
     feeds using Feedparser and creating all the necessary objects.
     """
-    TIMEOUT = 10 # timeout in seconds. Static class variable
-
     def __init__(self, feeds=None):
         """
         Constructor. Receives a list of feeds.
@@ -207,7 +207,11 @@ class FeedManager(object):
             new_entries = self._check_entries(feed)
             # Associate entries with feed and update 'last_modified' field
             feed.entries = new_entries
-            feed.last_modified = hdl.info["last-modified"]
+            try:
+                feed.last_modified = hdl.info["last-modified"]
+            except KeyError:
+                # last-modified header doesn't exist
+                pass
 
     @threadsafe_function
     def update_count_downloading(self, n):

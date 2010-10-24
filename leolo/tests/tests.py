@@ -161,6 +161,123 @@ class Test(unittest.TestCase):
     """
     Battery tests for Leolo.
     """
+    def test00_add_site_as_read(self):
+        """
+        Add a valid site and mark the last link as read.
+        """
+        m = Manager()
+        valid = valid_urls[0]
+        m.del_site(valid[0])
+        name = m.add_site(valid[0], True)
+        self.assertEqual(name, valid[1])
+        m.update_sites()
+        sites = m.get_sites()
+        for site in sites:
+            if site.feed.url == valid[0]:
+                self.assertEqual(site.feed.last_entrylink, valid[3])
+                self.assertEqual(site.feed.updated, False)
+                break
+        m.del_site(valid[0])
+
+    def test01_add_sites(self):
+        """
+        Add all valid sites.
+        """
+        m = Manager()
+        for valid in valid_urls:
+            m.del_site(valid[0])
+            name = m.add_site(valid[0])
+            self.assertEqual(name, valid[1])
+
+    def test02_invalid_sites(self):
+        """
+        Try to add all invalid sites.
+        """
+        m = Manager()
+        for invalid in invalid_urls:
+            name = m.add_site(invalid[0])
+            self.assertEqual(name, invalid[1])
+
+    def test03_illformed_feeds(self):
+        """
+        Try to add all illformed feeds.
+        """
+        m = Manager()
+        for url in illformed:
+            self.assertEqual(m.add_site(url, True), None)
+
+    def test04_update(self):
+        """
+        Updates all feeds.
+        """
+        m = Manager()
+        m.update_sites()
+        sites = m.get_sites()
+        for site in sites:
+            for valid in valid_urls:
+                if site.feed.url == valid[0]:
+                    self.assertEqual(site.title, valid[1])
+                    self.assertEqual(site.feed.last_modified, valid[2])
+                    self.assertEqual(site.feed.last_entrylink, valid[3])
+                    self.assertEqual(site.feed.updated, True)
+        for valid in valid_urls:
+            m.del_site(valid[0])
+
+    def test05_update(self):
+        """
+        Updates first 2 feeds.
+        """
+        m = Manager()
+        m.update_sites(0, 2)
+        sites = m.get_sites()
+        count = 0
+        for site in sites:
+            for valid in valid_urls:
+                if site.feed.url == valid[0]:
+                    print count
+                    if count < 2:
+                        self.assertEqual(site.feed.updated, True)
+                    else:
+                        self.assertEqual(site.feed.updated, False)
+                    count += 1
+
+        for valid in valid_urls:
+            m.del_site(valid[0])
+
+    def test06_update(self):
+        """
+        Doesn't update because Last-Modified header is the same than last time.
+        """
+        m = Manager()
+        m.update_sites(0)
+        sites = m.get_sites()
+        for site in sites:
+            for valid in valid_urls:
+                if site.feed.url == valid[0]:
+                    self.assertEqual(site.feed.updated, False)
+
+    def test07_update(self):
+        """
+        Doesn't update or download headers because last time was less than
+        1 minute ago.
+        """
+        m = Manager()
+        m.update_sites(1)
+        sites = m.get_sites()
+        for site in sites:
+            for valid in valid_urls:
+                if site.feed.url == valid[0]:
+                    self.assertEqual(site.feed.updated, False)
+
+    def test08_update(self):
+        """
+        Checking arguments.
+        """
+        m = Manager()
+        self.assertRaises(TypeError, m.update_sites, "string", None)
+        self.assertRaises(ValueError, m.update_sites, -1, None)
+        self.assertRaises(TypeError, m.update_sites, 1, "string")
+        self.assertRaises(ValueError, m.update_sites, 1, 0)
 
     def test08_mp3blogs(self):
         """
@@ -212,123 +329,4 @@ class Test(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-def test00_add_site_as_read(self):
-    """
-    Add a valid site and mark the last link as read.
-    """
-    m = Manager()
-    valid = valid_urls[0]
-    m.del_site(valid[0])
-    name = m.add_site(valid[0], True)
-    self.assertEqual(name, valid[1])
-    m.update_sites()
-    sites = m.get_sites()
-    for site in sites:
-        if site.feed.url == valid[0]:
-            self.assertEqual(site.feed.last_entrylink, valid[3])
-            self.assertEqual(site.feed.updated, False)
-            break
-    m.del_site(valid[0])
-
-def test01_add_sites(self):
-    """
-    Add all valid sites.
-    """
-    m = Manager()
-    for valid in valid_urls:
-        m.del_site(valid[0])
-        name = m.add_site(valid[0])
-        self.assertEqual(name, valid[1])
-
-def test02_invalid_sites(self):
-    """
-    Try to add all invalid sites.
-    """
-    m = Manager()
-    for invalid in invalid_urls:
-        name = m.add_site(invalid[0])
-        self.assertEqual(name, invalid[1])
-
-def test03_illformed_feeds(self):
-    """
-    Try to add all illformed feeds.
-    """
-    m = Manager()
-    for url in illformed:
-        self.assertEqual(m.add_site(url, True), None)
-
-def test04_update(self):
-    """
-    Updates all feeds.
-    """
-    m = Manager()
-    m.update_sites()
-    sites = m.get_sites()
-    for site in sites:
-        for valid in valid_urls:
-            if site.feed.url == valid[0]:
-                self.assertEqual(site.title, valid[1])
-                self.assertEqual(site.feed.last_modified, valid[2])
-                self.assertEqual(site.feed.last_entrylink, valid[3])
-                self.assertEqual(site.feed.updated, True)
-    for valid in valid_urls:
-        m.del_site(valid[0])
-
-def test05_update(self):
-    """
-    Updates first 2 feeds.
-    """
-    m = Manager()
-    m.update_sites(0, 2)
-    sites = m.get_sites()
-    count = 0
-    for site in sites:
-        for valid in valid_urls:
-            if site.feed.url == valid[0]:
-                print count
-                if count < 2:
-                    self.assertEqual(site.feed.updated, True)
-                else:
-                    self.assertEqual(site.feed.updated, False)
-                count += 1
-
-    for valid in valid_urls:
-        m.del_site(valid[0])
-
-def test06_update(self):
-    """
-    Doesn't update because Last-Modified header is the same than last time.
-    """
-    m = Manager()
-    m.update_sites(0)
-    sites = m.get_sites()
-    for site in sites:
-        for valid in valid_urls:
-            if site.feed.url == valid[0]:
-                self.assertEqual(site.feed.updated, False)
-
-def test07_update(self):
-    """
-    Doesn't update or download headers because last time was less than
-    1 minute ago.
-    """
-    m = Manager()
-    m.update_sites(1)
-    sites = m.get_sites()
-    for site in sites:
-        for valid in valid_urls:
-            if site.feed.url == valid[0]:
-                self.assertEqual(site.feed.updated, False)
-
-def test08_update(self):
-    """
-    Checking arguments.
-    """
-    m = Manager()
-    self.assertRaises(TypeError, m.update_sites, "string", None)
-    self.assertRaises(ValueError, m.update_sites, -1, None)
-    self.assertRaises(TypeError, m.update_sites, 1, "string")
-    self.assertRaises(ValueError, m.update_sites, 1, 0)
 

@@ -192,9 +192,12 @@ class FeedManager(object):
             if feed.url == hdl.url:
                 break
         feed.last_check = datetime.now()
+        try:
+            result_modified = (feed.last_modified != hdl.info["last-modified"])
+        except KeyError:
+            result_modified = True
         # Check last_modified
-        if not feed.last_modified \
-           or feed.last_modified != hdl.info["last-modified"]:
+        if not feed.last_modified or result_modified:
             # Download the Feed
             dl = Downloader(feed.url)
             dl.start()
